@@ -74,5 +74,5 @@ The WfM checkpoint hash is
 Generated outputs and build logs are validation artifacts, not bundled source.
 
 The full sampling and distillation instructions remain in
-[REPRODUCTION.md](../../REPRODUCTION.md). Public hosting of the exact WfM checkpoint
-is still pending, and this check does not establish full-table numerical parity.
+[REPRODUCTION.md](../../REPRODUCTION.md). This check does not establish full-table
+numerical parity.

@@ -20,6 +20,14 @@ def commands(args):
               "--data-root", str(args.inputs / "observations"), "--models", str(args.inputs / "models"),
               "--cpu-threads", str(args.cpu_threads)]
     result = [(stage, [sys.executable, str(HERE / "stages.py"), stage, *common]) for stage in STAGES[:-2]]
+    mask_bundle = getattr(args, "evaluation_mask_bundle", None)
+    mask_hash = getattr(args, "evaluation_mask_manifest_sha256", None)
+    if bool(mask_bundle) != bool(mask_hash):
+        raise ValueError("Provide both --evaluation-mask-bundle and --evaluation-mask-manifest-sha256")
+    if mask_bundle:
+        mask_command = dict(result)["masks"]
+        mask_command.extend(["--evaluation-mask-bundle", str(mask_bundle),
+                             "--evaluation-mask-manifest-sha256", mask_hash])
     result += [("fit", [sys.executable, str(TABLE / "run.py"), "fit", "--manifest", str(args.output / "runs.json"),
                         "--fit-preset", "efficient", "--output", str(args.output / "fit")]),
                ("evaluate", [sys.executable, str(TABLE / "run.py"), "evaluate", "--manifest",
@@ -43,6 +51,11 @@ def run(args):
             raise FileNotFoundError(path)
     if args.inputs == args.output or args.output in args.inputs.parents or args.inputs in args.output.parents:
         raise ValueError("Keep downloaded inputs and generated outputs in separate directories")
+    if getattr(args, "evaluation_mask_bundle", None):
+        sys.path.insert(0, str(REPO / "src"))
+        from wfm.released_masks import verify_bundle
+        verify_bundle(args.evaluation_mask_bundle, args.evaluation_mask_manifest_sha256,
+                      args.method, args.scene, args.inputs / "observations" / args.scene)
     args.output.mkdir(parents=True)
     env = os.environ.copy()
     env.update(PYTHONUNBUFFERED="1", PYTHONDONTWRITEBYTECODE="1", GS_BACKEND="native_add3",
@@ -56,6 +69,10 @@ def run(args):
                   source_sha256={str(p.relative_to(REPO)): sha256(p) for p in HERE.rglob("*")
                                  if p.is_file() and "__pycache__" not in p.parts},
                   scope="initial_only" if getattr(args, "initial_only", False) else "distillation",
+                  evaluation_masks=dict(source="released_bundle",
+                                        bundle=str(args.evaluation_mask_bundle),
+                                        manifest_sha256=args.evaluation_mask_manifest_sha256)
+                  if getattr(args, "evaluation_mask_bundle", None) else dict(source="sam3_regenerated"),
                   status="running", stages=[], started=time.time())
     save(args.output / "execution.json", report)
     try:
@@ -93,10 +110,17 @@ def main():
     parser.add_argument("--cpu-threads", type=int, default=8)
     parser.add_argument("--initial-only", action="store_true",
                         help="Stop after initial reconstruction, ready for direct video sampling")
+    parser.add_argument("--evaluation-masks", choices=("regenerate", "released"), default="regenerate",
+                        help="Regenerate evaluation masks with SAM3, or install the released set "
+                             "pinned in assets.lock.json (download it with download.py --group masks)")
     parser.add_argument("--plan", action="store_true", help="Print commands only; no execution or validation claim")
     args = parser.parse_args()
     args.inputs = args.inputs.expanduser().resolve()
     args.output = args.output.expanduser().resolve()
+    if args.evaluation_masks == "released":
+        pin = json.loads((HERE / "assets.lock.json").read_text())["masks"]
+        args.evaluation_mask_bundle = args.inputs / pin["bundle"]
+        args.evaluation_mask_manifest_sha256 = pin["manifest_sha256"]
     if args.cpu_threads < 1:
         parser.error("--cpu-threads must be positive")
     run(args)

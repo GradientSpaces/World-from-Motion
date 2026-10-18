@@ -5,8 +5,9 @@ This guide covers the DyCheck Table 1 rows for **MoSca (MS)** and
 scenes; training the WfM video model is a separate experiment.
 
 **Release status:** the reproduction code and pinned input identities are included.
-The public download URL for WfM step-12500 is pending. You need that exact
-checkpoint from an authorized source before running the complete workflow.
+WfM step-12500 is published on Hugging Face at
+[`liyzzz/World-from-Motion`](https://huggingface.co/liyzzz/World-from-Motion), and
+the downloader fetches it at a pinned commit.
 
 **Validation:** the native environment (Python 3.10, PyTorch 2.3.1/CUDA 12.1) and
 one MS wheel sampling run from a saved initial reconstruction have been tested.
@@ -118,21 +119,33 @@ WorldTree DyCheck export. It regenerates flow, tracks, initial reconstructions
 and teacher views locally. Arbitrary canonical DyCheck layouts are not accepted
 without conversion to this export's layout.
 
-Authenticate with your own approved SAM3 Hugging Face access before downloading.
-First obtain an authorized HTTPS or S3 URL for the exact WfM checkpoint, then:
+The default `all` group includes the gated SAM3 weights, which need your own
+approved SAM3 Hugging Face access. If you use the released evaluation masks
+(below), you can skip SAM3. The asset lock pins the WfM checkpoint to the
+[`liyzzz/World-from-Motion`](https://huggingface.co/liyzzz/World-from-Motion)
+model repository at an exact commit:
 
 ```bash
-export WFM_CHECKPOINT_URL='https://REPLACE_WITH_AUTHORIZED_LOCATION/wfm-step-12500.safetensors'
-python reproduce/from_raw/download.py --root "$WFM_INPUTS" \
-  --wfm-url "$WFM_CHECKPOINT_URL"
+python reproduce/from_raw/download.py --root "$WFM_INPUTS"
 ```
 
-The URL above is a placeholder, not a published endpoint. Alternatively, place
-the checkpoint at `$WFM_INPUTS/models/wfm-step-12500.safetensors` and omit
-`--wfm-url`; it will be verified before any other downloads. For S3, `--profile`
-and `--endpoint` are optional explicit overrides; AWS CLI is required. No
-internal endpoint or profile is selected automatically. The checkpoint is
-16,591,588,312 bytes with SHA-256:
+A checkpoint already at `$WFM_INPUTS/models/wfm-step-12500.safetensors` is
+verified before any other download and reused. `--wfm-url` instead fetches the
+same checkpoint from another HTTPS or S3 location. For S3, `--profile` and
+`--endpoint` are optional explicit overrides; AWS CLI is required. No internal
+endpoint or profile is selected automatically.
+
+`--mirror DIR` (or `WFM_ASSET_MIRROR=DIR`) reads assets from a local copy laid
+out like `--root`, such as a shared read-only input root, before using the
+network. `--offline` (or `HF_HUB_OFFLINE=1`, which the root Dockerfile sets)
+never uses the network: every selected asset must already be under `--root` or
+the mirror, or the downloader stops before copying anything. Whatever the
+source, each file is checked against its pinned size and SHA-256. Hugging Face
+files download into a staging directory next to their destination, not through
+the shared Hugging Face cache. `downloads-<group>.json` under `--root` records
+each asset's source and, for Hugging Face assets, the pinned `repo@revision`.
+
+The checkpoint is 16,591,588,312 bytes with SHA-256:
 
 ```text
 32aa1215af2dd36a6dc07900e6196486c914003a5f5934b7fa51498c05301c01
@@ -144,6 +157,30 @@ you initially supplied `--scenes wheel`. Verified downloaded files are reusable,
 but observation extraction requires a fresh `observations/` directory. Large
 HTTPS downloads require range support. Weights and datasets are not included
 in Git and remain subject to their original access and license terms.
+
+### Released evaluation masks (optional)
+
+By default the runner regenerates evaluation masks with SAM3. Instead, you can
+use the released `dycheck-evaluation-masks-sam3-20261007` set from the
+[`liyzzz/World-from-Motion-DyCheck-Masks`](https://huggingface.co/datasets/liyzzz/World-from-Motion-DyCheck-Masks)
+dataset, pinned in the asset lock. Those masks were regenerated with
+SAM3 on 2026-10-07 during an independent reproduction; they are not the masks
+behind the paper's numbers. Download them separately (the default `all` group
+omits them):
+
+```bash
+python reproduce/from_raw/download.py --root "$WFM_INPUTS" --group masks
+```
+
+The downloader fetches a single archive into `$WFM_INPUTS/downloads/`, checks
+its SHA-256, the manifest SHA-256 and every mask, then installs the bundle under
+`$WFM_INPUTS/evaluation-masks/`. Then add
+`--evaluation-masks released` to each `run.py` command. The runner checks each
+mask against the held-out RGB before any GPU stage starts. Its mask stage
+installs the exact bytes instead of running SAM3, and `evaluation_masks.json`
+records the bundle label and hashes. With released masks the SAM3 weights are
+not needed: download the `data`, `models` and `wfm` groups instead of `all`,
+which skips the separate `sam3` group.
 
 ## 2. Reproduce Ours (distill): wheel pilots
 
@@ -271,7 +308,8 @@ python reproduce/sampling/preview.py "$WFM_SAMPLE_ROOT/ms_wheel" \
 
 ## Numerical limits
 
-Evaluation dynamic masks are regenerated with SAM3 prompt unions. Archived mask
+Evaluation dynamic masks are regenerated with SAM3 prompt unions unless the
+released set is selected; either way they are not the archived masks. Archived mask
 provenance remains unresolved for apple, block, paper-windmill, spin and teddy;
 wheel/space-out prompt provenance alone does not establish pixel parity. The
 paper-windmill recipe uses `pinwheel` and lossless FFV1 RGB transport; see the

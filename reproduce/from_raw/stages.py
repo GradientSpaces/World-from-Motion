@@ -127,7 +127,18 @@ def priors(args):
 
 
 def masks(args):
-    """Regenerate the evaluation-only dynamic masks from held-out RGB."""
+    """Install pinned released masks, or regenerate evaluation masks from RGB."""
+    bundle = getattr(args, "evaluation_mask_bundle", None)
+    manifest_hash = getattr(args, "evaluation_mask_manifest_sha256", None)
+    if bool(bundle) != bool(manifest_hash):
+        raise ValueError("Released masks require both a bundle and its pinned manifest SHA-256")
+    if bundle:
+        sys.path.insert(0, str(REPO / "src"))
+        from wfm.released_masks import install_bundle
+        report = install_bundle(bundle, manifest_hash, args.method, args.scene,
+                                args.output / "workspace")
+        save(args.output / "evaluation_masks.json", report)
+        return
     sys.path[:0] = [str(REPO / "src"), str(HERE / "runtime"), str(REPO / "vendor/mosca")]
     import extract_test_masks as implementation
     import numpy as np
@@ -211,7 +222,17 @@ def render(args):
     print(result)
 
 
+def wfm_checkpoint(models, spec=None):
+    """Return the pinned WfM checkpoint only after its size and SHA-256 match the lock."""
+    spec = spec or json.loads((HERE / "assets.lock.json").read_text())["wfm"]
+    checkpoint = Path(models) / Path(spec["path"]).name
+    if checkpoint.stat().st_size != spec["bytes"] or sha256(checkpoint) != spec["sha256"]:
+        raise ValueError(f"Wrong WfM checkpoint: {checkpoint}")
+    return checkpoint
+
+
 def generate(args):
+    checkpoint = wfm_checkpoint(args.models)
     sys.path[:0] = [str(HERE / "runtime"), str(REPO / "vendor/diffsynth")]
     os.environ.update(DIFFSYNTH_SKIP_DOWNLOAD="true", HF_HUB_OFFLINE="1", WANDB_MODE="disabled")
     from gen4dgs.inference.worldtree_runner import WorldTreeInferenceConfig, run_worldtree_inference
@@ -223,7 +244,7 @@ def generate(args):
                         str(wan / "Wan2.1_VAE.pth")])
     config = WorldTreeInferenceConfig(benchmark_root=args.output / "conditioning",
         output_root=args.output / "teacher", diffsynth_root=REPO / "vendor/diffsynth",
-        checkpoint=args.models / "wfm-step-12500.safetensors", scene_names=(args.scene,),
+        checkpoint=checkpoint, scene_names=(args.scene,),
         reference_camera="cam0", target_cameras=tuple(CAMERAS[1:]), chunk_size=73,
         prompt=" ", inference_res=(512, 384), num_inference_steps=30, cfg_scale=1.0,
         target_gbuffer_cfg_scale=3.0 if args.method == "ms" else 3.5,
@@ -293,6 +314,8 @@ def main():
     parser.add_argument("--data-root", type=Path, required=True)
     parser.add_argument("--models", type=Path, required=True)
     parser.add_argument("--cpu-threads", type=int, default=8)
+    parser.add_argument("--evaluation-mask-bundle", type=Path)
+    parser.add_argument("--evaluation-mask-manifest-sha256")
     args = parser.parse_args()
     for name in ("output", "data_root", "models"):
         setattr(args, name, getattr(args, name).expanduser().resolve())

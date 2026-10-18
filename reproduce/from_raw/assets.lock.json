@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "artifacts": [
     {
       "path": "downloads/released_data.zip",
@@ -151,13 +151,28 @@
       "revision": "3c879f39826c281e95690f02c7821c4de09afae7",
       "bytes": 3450062241,
       "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
-      "group": "models"
+      "group": "sam3"
     }
   ],
   "wfm": {
     "path": "models/wfm-step-12500.safetensors",
-    "url": null,
+    "hf_repo": "liyzzz/World-from-Motion",
+    "hf_file": "wfm-step-12500.safetensors",
+    "repo_type": "model",
+    "revision": "b57640a7ba95e33f043aac2685b959fd81a5e3b7",
     "bytes": 16591588312,
     "sha256": "32aa1215af2dd36a6dc07900e6196486c914003a5f5934b7fa51498c05301c01"
+  },
+  "masks": {
+    "path": "downloads/dycheck-evaluation-masks-sam3-20261007.zip",
+    "hf_repo": "liyzzz/World-from-Motion-DyCheck-Masks",
+    "hf_file": "dycheck-evaluation-masks-sam3-20261007.zip",
+    "repo_type": "dataset",
+    "revision": "26e926127640cb32b9dce4d07a5001bde7f4c11f",
+    "bytes": 17644275,
+    "sha256": "a106a67d856acc241109333b2839706b6099fd7466287c4c89ec8488fc8e1e6e",
+    "bundle": "evaluation-masks/dycheck-evaluation-masks-sam3-20261007",
+    "manifest_sha256": "daa2e01082bb660718347daeafd893c5ff780bb04dd0dd90d1577883c12eab53",
+    "files": 7856
   }
 }

@@ -38,10 +38,13 @@ the scene. The core video pipeline combines MoSca reconstruction with DiffSynth 
 3. Reconstruct your video with the [usage guide](docs/USAGE.md).
 4. Reproduce **Ours (sample)** and **Ours (distill)** on DyCheck using
    [REPRODUCTION.md](REPRODUCTION.md), including the benchmark-specific setup,
-   commands and reference numbers. The step-12500 checkpoint download URL is pending.
+   commands and reference numbers.
 
-Model weights are distributed separately. The public Hugging Face download
-location will be added when the assets are published.
+Model weights are distributed separately. The DyCheck Table 1 checkpoint is on
+Hugging Face at [`liyzzz/World-from-Motion`](https://huggingface.co/liyzzz/World-from-Motion),
+and the released evaluation masks are at
+[`liyzzz/World-from-Motion-DyCheck-Masks`](https://huggingface.co/datasets/liyzzz/World-from-Motion-DyCheck-Masks).
+The download location for the video-pipeline model bundle will be added when it is published.
 
 ## Code structure
 

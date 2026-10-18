@@ -15,7 +15,6 @@ def test_reproduction_source_without_saved_campaign_assets():
     assert not (ROOT / "runs").exists()
     assert not (ROOT / "vendor/mosca/eval_utils/pck_gt_packs").exists()
     assert not (ROOT / "slurm").exists()
-    assert not (ROOT / "src/wfm/released_masks.py").exists()
     assert not list((ROOT / "reproduce").rglob("results"))
     for folder in ("src", "config", "docs", "tests", "scripts", "reproduce"):
         assert not list((ROOT / folder).rglob("*.xlsx"))

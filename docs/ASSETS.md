@@ -33,4 +33,6 @@ Distribute `LICENSE` and `NOTICE` alongside the checkpoint, retain applicable
 upstream notices, and identify the WfM modifications in the model card.
 
 The separately downloaded Wan components and other pretrained models retain
-their respective licenses. The checkpoint download location is still pending.
+their respective licenses. The checkpoint is published at
+[`liyzzz/World-from-Motion`](https://huggingface.co/liyzzz/World-from-Motion);
+[REPRODUCTION.md](../REPRODUCTION.md) downloads it at a pinned commit.
