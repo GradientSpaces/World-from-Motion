@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "snapshots": {
+    "mosca": "0328637b07eb048d293d5c0a89595d451393e6c9",
+    "diffsynth": "e46fcedf7b111d7bbe64ee520a9e4369373f78e4",
+    "sam3": "6ae999d49baf887c99f0016c8eb72e229189b9fc",
+    "pytorch3d": "75ebeeaea0908c5527e7b1e305fbc7681382db47",
+    "gen4dgs_reoptimization": "333425d8d7bb2de6ff347e6cbc1083a433b41179"
+  },
+  "policy": "No vendored source is updated implicitly at runtime."
+}

@@ -1,0 +1,9 @@
+{
+  "apple": ["apple", "arm"],
+  "block": ["gray block", "block"],
+  "paper-windmill": ["pinwheel"],
+  "space-out": ["person", "human"],
+  "spin": ["person", "human"],
+  "teddy": ["teddy", "hand"],
+  "wheel": ["steering wheel", "arm"]
+}

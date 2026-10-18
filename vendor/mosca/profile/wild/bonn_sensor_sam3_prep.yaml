@@ -1,0 +1,34 @@
+# Bonn RGB-D precompute: sensor depth + CoWTracker + SAM3 dynamic masks.
+# dep_mode=sensor makes the processor load metric depth from sensor_depth/ (no
+# depth model is loaded). sam3_text is provided per scene as a CLI dotlist
+# override, e.g. `python mosca_precompute.py --ws <ws> --cfg <this> sam3_text='[person, balloon]'`.
+dep_mode: sensor
+tap_mode: cowtracker
+flow_mode: none
+
+dynamic_mask_mode: sam3
+sam3_text: null
+sam3_lib_prior_root: null
+sam3_fps: 10.0
+# Bonn dynamic objects (person/balloon/box) enter intermittently, so seeding only
+# on frame 0 misses them. Seed across the clip; SAM3 propagates from any frame that
+# produces a positive detection. Out-of-range indices are ignored for shorter clips.
+sam3_seed_frame_indices: [0, 31, 62, 93, 125, 156, 187, 218, 249]
+
+compute_flow: False
+rgb_dirname: images
+
+# SAM3 masks are saved as 0/1 epi shims; threshold at 0.5 to recover the mask.
+epi_th: 0.5
+depth_boundary_th: 1.0
+
+tap_chunk_size: 5000
+n_track_uniform: 8192
+n_track_pdynamic: 24576
+
+flow_steps: [1, 3]
+epi_num_threads: 16
+
+# Sensor depth is already metric; no metric alignment needed.
+align_metric_flag: False
+boundary_enhance_th: -1

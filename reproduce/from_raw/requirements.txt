@@ -1,0 +1,21 @@
+# Additional observed versions for preprocessing and WfM generation.
+# First install the Table 1 environment described in ../table1/ENVIRONMENT.md.
+transformers==4.53.2
+diffusers==0.37.0
+accelerate==1.13.0
+safetensors==0.7.0
+einops==0.8.2
+# BootsTAPIR's tensor-shape helpers are imported by the priors pipeline.
+einshape==1.0
+sentencepiece==0.2.1
+ftfy==6.1.1
+decord==0.6.0
+timm==1.0.26
+huggingface-hub==0.36.2
+mediapy==1.2.2
+pycocotools==2.0.11
+numba==0.64.0
+psutil==7.2.2
+torchmetrics==1.9.0
+modelscope==1.35.3
+peft==0.18.1

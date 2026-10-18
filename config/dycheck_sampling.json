@@ -1,0 +1,20 @@
+{
+  "checkpoint": "wfm-step-12500.safetensors",
+  "checkpoint_sha256": "32aa1215af2dd36a6dc07900e6196486c914003a5f5934b7fa51498c05301c01",
+  "num_inference_steps": 20,
+  "guidance_scale": 3.0,
+  "guidance_mode": "apg",
+  "apg_space": "x0",
+  "apg_eta": 0.0,
+  "apg_norm_threshold": 8.0,
+  "apg_momentum": -0.5,
+  "inference_res_hw": [512, 384],
+  "chunk_size": 73,
+  "seed": 0,
+  "paper_url": "https://arxiv.org/html/2607.01202#S5.T1",
+  "recipe_status": "Step-12500, 20 steps and APG x0 guidance 3.0 for both MS and WT, as selected by the authors. Exact archived sampling-input parity is not established.",
+  "paper_means": {
+    "ms": {"psnr": 18.43, "ssim": 0.548, "lpips": 0.269, "valid_psnr": 18.68, "valid_ssim": 0.638, "valid_lpips": 0.242, "mpsnr": 19.18, "mssim": 0.688, "mlpips": 0.227},
+    "wt": {"psnr": 18.74, "ssim": 0.560, "lpips": 0.265, "valid_psnr": 19.02, "valid_ssim": 0.649, "valid_lpips": 0.239, "mpsnr": 19.50, "mssim": 0.701, "mlpips": 0.224}
+  }
+}

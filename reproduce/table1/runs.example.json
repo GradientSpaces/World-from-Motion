@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "description": "Portable asset layout for released distillation checkpoints and prepared DyCheck workspaces.",
+  "runs": [
+    {
+      "method": "ms",
+      "scene": "apple",
+      "checkpoint": "checkpoints/ms/apple",
+      "workspace": "workspaces/ms/apple",
+      "metric_workspace": "workspaces/ms/apple",
+      "static_metrics": "results/ms/apple/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/ms/apple/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "block",
+      "checkpoint": "checkpoints/ms/block",
+      "workspace": "workspaces/ms/block",
+      "metric_workspace": "workspaces/ms/block",
+      "static_metrics": "results/ms/block/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/ms/block/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "paper-windmill",
+      "checkpoint": "checkpoints/ms/paper-windmill",
+      "workspace": "workspaces/ms/paper-windmill",
+      "metric_workspace": "workspaces/ms/paper-windmill",
+      "static_metrics": "results/ms/paper-windmill/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/ms/paper-windmill/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "space-out",
+      "checkpoint": "checkpoints/ms/space-out",
+      "workspace": "workspaces/ms/space-out",
+      "metric_workspace": "workspaces/ms/space-out",
+      "static_metrics": "results/ms/space-out/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/ms/space-out/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "spin",
+      "checkpoint": "checkpoints/ms/spin",
+      "workspace": "workspaces/ms/spin",
+      "metric_workspace": "workspaces/ms/spin",
+      "static_metrics": "results/ms/spin/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/ms/spin/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "teddy",
+      "checkpoint": "checkpoints/ms/teddy",
+      "workspace": "workspaces/ms/teddy",
+      "metric_workspace": "workspaces/ms/teddy",
+      "static_metrics": "results/ms/teddy/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/ms/teddy/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "wheel",
+      "checkpoint": "checkpoints/ms/wheel",
+      "workspace": "workspaces/ms/wheel",
+      "metric_workspace": "workspaces/ms/wheel",
+      "static_metrics": "results/ms/wheel/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/ms/wheel/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "apple",
+      "checkpoint": "checkpoints/wt/apple",
+      "workspace": "workspaces/wt/apple",
+      "metric_workspace": "workspaces/ms/apple",
+      "static_metrics": "results/wt/apple/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/wt/apple/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "block",
+      "checkpoint": "checkpoints/wt/block",
+      "workspace": "workspaces/wt/block",
+      "metric_workspace": "workspaces/ms/block",
+      "static_metrics": "results/wt/block/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/wt/block/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "paper-windmill",
+      "checkpoint": "checkpoints/wt/paper-windmill",
+      "workspace": "workspaces/wt/paper-windmill",
+      "metric_workspace": "workspaces/ms/paper-windmill",
+      "static_metrics": "results/wt/paper-windmill/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/wt/paper-windmill/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "space-out",
+      "checkpoint": "checkpoints/wt/space-out",
+      "workspace": "workspaces/wt/space-out",
+      "metric_workspace": "workspaces/ms/space-out",
+      "static_metrics": "results/wt/space-out/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/wt/space-out/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "spin",
+      "checkpoint": "checkpoints/wt/spin",
+      "workspace": "workspaces/wt/spin",
+      "metric_workspace": "workspaces/ms/spin",
+      "static_metrics": "results/wt/spin/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/wt/spin/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "teddy",
+      "checkpoint": "checkpoints/wt/teddy",
+      "workspace": "workspaces/wt/teddy",
+      "metric_workspace": "workspaces/ms/teddy",
+      "static_metrics": "results/wt/teddy/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/wt/teddy/per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "wheel",
+      "checkpoint": "checkpoints/wt/wheel",
+      "workspace": "workspaces/wt/wheel",
+      "metric_workspace": "workspaces/ms/wheel",
+      "static_metrics": "results/wt/wheel/static/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "results/wt/wheel/per_frame/tto_dycheck_metrics.xlsx"
+    }
+  ]
+}

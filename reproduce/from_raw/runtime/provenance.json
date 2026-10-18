@@ -1,0 +1,275 @@
+{
+  "description": "Selected research modules for independent input generation; no intermediate scene assets included.",
+  "files": [
+    {
+      "source": "Gen4DGS/gen4dgs/formats/worldtree_benchmark.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/formats/worldtree_benchmark.py",
+      "source_sha256": "2503cf02fe5cec739a20512663cc53cb261216f35cd70c5734cbfb455c62a641",
+      "integrated_sha256": "2503cf02fe5cec739a20512663cc53cb261216f35cd70c5734cbfb455c62a641"
+    },
+    {
+      "source": "Gen4DGS/gen4dgs/render/export_worldtree_layout.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/render/export_worldtree_layout.py",
+      "source_sha256": "ae05b52bf9676f45bf444659aa427e75f3fbb467b5d841afd2408e6b9740d813",
+      "integrated_sha256": "ae05b52bf9676f45bf444659aa427e75f3fbb467b5d841afd2408e6b9740d813"
+    },
+    {
+      "source": "Gen4DGS/gen4dgs/render/stationary_pose_sampler.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/render/stationary_pose_sampler.py",
+      "source_sha256": "6c64b72ffe2d97b1b1bffc5ca7639e92bbadf20c5c619fa5582892059db01340",
+      "integrated_sha256": "6c64b72ffe2d97b1b1bffc5ca7639e92bbadf20c5c619fa5582892059db01340"
+    },
+    {
+      "source": "Gen4DGS/gen4dgs/render/trajectory_stationary_adapter.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/render/trajectory_stationary_adapter.py",
+      "source_sha256": "708efedd078f6986155b1b49cf52a84aecbe1f649f55aeb4d2d95e84354daea0",
+      "integrated_sha256": "708efedd078f6986155b1b49cf52a84aecbe1f649f55aeb4d2d95e84354daea0"
+    },
+    {
+      "source": "Gen4DGS/gen4dgs/render/trajectory_fullseq_stationary_adapter.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/render/trajectory_fullseq_stationary_adapter.py",
+      "source_sha256": "d2c6d9a4ff8ef2d493de601422132368dabc8b3da4979fed8dd99cdd29bb000f",
+      "integrated_sha256": "d2c6d9a4ff8ef2d493de601422132368dabc8b3da4979fed8dd99cdd29bb000f"
+    },
+    {
+      "source": "Gen4DGS/gen4dgs/render/worldtree_render_bridge.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/render/worldtree_render_bridge.py",
+      "source_sha256": "af26f3195ec25f9d658ff369d68c919237df2704d89e2414e169ee9bf684e6b7",
+      "integrated_sha256": "565806c99055fc42517fdf6acb6ef392ca68074a4fd66bcd71448af45ab5fcfa"
+    },
+    {
+      "source": "Gen4DGS/gen4dgs/inference/diffsynth_bridge.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/inference/diffsynth_bridge.py",
+      "source_sha256": "5ee1c53887c130ac1e64a2e27ceb8263bc8015d5bab10cb62f6d5c3abb058c0f",
+      "integrated_sha256": "0afc14f7d7a1f2d2290f5b51872769554ff10f8eaa1b87564fd225d90ad7f775"
+    },
+    {
+      "source": "Gen4DGS/gen4dgs/inference/scene_benchmark.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/inference/scene_benchmark.py",
+      "source_sha256": "72427f90c03599f2bb248676dbb09686ff256388a7a5b56b20edabc59b37eef1",
+      "integrated_sha256": "72427f90c03599f2bb248676dbb09686ff256388a7a5b56b20edabc59b37eef1"
+    },
+    {
+      "source": "Gen4DGS/gen4dgs/inference/worldtree_runner.py",
+      "destination": "reproduce/from_raw/runtime/gen4dgs/inference/worldtree_runner.py",
+      "source_sha256": "90b6d19ae966952c6cef9df5be9b643776a1f0518eec9124af465806e1e6e721",
+      "integrated_sha256": "90b6d19ae966952c6cef9df5be9b643776a1f0518eec9124af465806e1e6e721"
+    },
+    {
+      "source": "WorldTree/scripts/iphone_divide/render_iphone_tto_benchmark_gbuffers.py",
+      "destination": "reproduce/from_raw/runtime/render_iphone_tto_benchmark_gbuffers.py",
+      "source_sha256": "6af551d68d7a50fa9ec122959af56fbe3a70fa235123e43d41f8573ba4a76595",
+      "integrated_sha256": "bbb6498afe6c34ea9fbfe7618433d674e6d19a858207a4e71e2373da294a22f4"
+    },
+    {
+      "source": "mosca_v2/profile/iphone/iphone_fit.yaml",
+      "destination": "reproduce/from_raw/configs/ms_initial.yaml",
+      "source_sha256": "a90745c108bd022b4c67b1cba6c8db570799c6d924e428fe912d5be43df07b3c",
+      "integrated_sha256": "a90745c108bd022b4c67b1cba6c8db570799c6d924e428fe912d5be43df07b3c"
+    },
+    {
+      "source": "WorldTree/profile/iphone_divide_final/iphone_fit.yaml",
+      "destination": "reproduce/from_raw/configs/wt_initial.yaml",
+      "source_sha256": "8e619c56adc5ea3b003c2ab22c3e3361c500a92021cf422740963f93ad5bfb23",
+      "integrated_sha256": "dab5ef17b86f60630208bab38e81efa9a4e0a460848b473f55f5e7c0301c561f"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/__init__.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "integrated_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/version.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/version.py",
+      "source_sha256": "a8b2612b07c2cbeb2d32c99711fb1c2829571938776fb8188812c66c9b129949",
+      "integrated_sha256": "a8b2612b07c2cbeb2d32c99711fb1c2829571938776fb8188812c66c9b129949"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/predictor.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/predictor.py",
+      "source_sha256": "783536d6c77790fa6c8e005f2df1d6bd4f0d8955c2c67d464bfb4e64d366375f",
+      "integrated_sha256": "ef08086fb6d6198cfbd42f5772e6a6c30d27a5f5912d071af6514c3f2e5f5b0d"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/__init__.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "integrated_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/build_cotracker.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/build_cotracker.py",
+      "source_sha256": "72a2d04fafb26c7f2ee0d7236fa63d5a7adbc9a9f1bab1d68f41bdd1ea657c89",
+      "integrated_sha256": "72a2d04fafb26c7f2ee0d7236fa63d5a7adbc9a9f1bab1d68f41bdd1ea657c89"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/bootstap_predictor.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/bootstap_predictor.py",
+      "source_sha256": "7e25e4d8884b0bc01c72b2e00eb7da0f0e1e97ea1e4944818f16baee6347cfe3",
+      "integrated_sha256": "7e25e4d8884b0bc01c72b2e00eb7da0f0e1e97ea1e4944818f16baee6347cfe3"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/evaluation_predictor.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/evaluation_predictor.py",
+      "source_sha256": "7bb03606c08638de28f79abfcf8bd03eb0c42bfd811e6bb8a00d752a2a943597",
+      "integrated_sha256": "7bb03606c08638de28f79abfcf8bd03eb0c42bfd811e6bb8a00d752a2a943597"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/evaluation/__init__.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/evaluation/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "integrated_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/evaluation/evaluate.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/evaluation/evaluate.py",
+      "source_sha256": "5b7f886332ed7772567c0ae83ae5275a716fe69129a66ffc9168cd1a397e646d",
+      "integrated_sha256": "5b7f886332ed7772567c0ae83ae5275a716fe69129a66ffc9168cd1a397e646d"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/utils/__init__.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/utils/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "integrated_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/utils/train_utils.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/utils/train_utils.py",
+      "source_sha256": "235bd0cfeb0285125f0d372649fe97496847b1afefccf05188f0d0694f417151",
+      "integrated_sha256": "235bd0cfeb0285125f0d372649fe97496847b1afefccf05188f0d0694f417151"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/utils/visualizer.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/utils/visualizer.py",
+      "source_sha256": "0b5fef184d44c408568559a634821968b6907d2b526b967d2a4bbd843b0fc587",
+      "integrated_sha256": "0b5fef184d44c408568559a634821968b6907d2b526b967d2a4bbd843b0fc587"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/datasets/__init__.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/datasets/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "integrated_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/datasets/kubric_movif_dataset.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/datasets/kubric_movif_dataset.py",
+      "source_sha256": "c8cb9537c44cfbff1c13b2251a5947126f0baa65fe7ced48edf2218493c6c663",
+      "integrated_sha256": "c8cb9537c44cfbff1c13b2251a5947126f0baa65fe7ced48edf2218493c6c663"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/datasets/tap_vid_datasets.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/datasets/tap_vid_datasets.py",
+      "source_sha256": "2806cc6c1d5df1703c942feb05154a7b78ffa8ac4cb2fb032876ce3cf335699b",
+      "integrated_sha256": "2806cc6c1d5df1703c942feb05154a7b78ffa8ac4cb2fb032876ce3cf335699b"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/datasets/real_dataset.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/datasets/real_dataset.py",
+      "source_sha256": "889edb66f65151dfac3271c91ecc47c1490508f54cc1fe0f7860e699f9a1da1e",
+      "integrated_sha256": "889edb66f65151dfac3271c91ecc47c1490508f54cc1fe0f7860e699f9a1da1e"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/datasets/dataclass_utils.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/datasets/dataclass_utils.py",
+      "source_sha256": "85081775c3b4c74b456cc4e6f164d559cac77adecce28b010b527a46a2efb488",
+      "integrated_sha256": "85081775c3b4c74b456cc4e6f164d559cac77adecce28b010b527a46a2efb488"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/datasets/dr_dataset.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/datasets/dr_dataset.py",
+      "source_sha256": "e70e9eeb66c08f40c4312268768532050ca5e269e1d84503cc12fdefc4db5969",
+      "integrated_sha256": "e70e9eeb66c08f40c4312268768532050ca5e269e1d84503cc12fdefc4db5969"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/datasets/utils.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/datasets/utils.py",
+      "source_sha256": "05c40c9dbc51f588cd5d889b3abd9795eb55a0a720d60519fedde54baeaac3c6",
+      "integrated_sha256": "05c40c9dbc51f588cd5d889b3abd9795eb55a0a720d60519fedde54baeaac3c6"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/evaluation/core/__init__.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/evaluation/core/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "integrated_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/evaluation/core/evaluator.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/evaluation/core/evaluator.py",
+      "source_sha256": "9432df1c94f9786e4ef579632d9b8cd6b2e7680800564d50e38588ed7bb56274",
+      "integrated_sha256": "9432df1c94f9786e4ef579632d9b8cd6b2e7680800564d50e38588ed7bb56274"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/evaluation/core/eval_utils.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/evaluation/core/eval_utils.py",
+      "source_sha256": "4f23ce75896694a8f5d8f7e5650c15d4f74a2e7135ae176c8295621d60916cb9",
+      "integrated_sha256": "4f23ce75896694a8f5d8f7e5650c15d4f74a2e7135ae176c8295621d60916cb9"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/__init__.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "integrated_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/model_utils.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/model_utils.py",
+      "source_sha256": "8f13adb13866cba3b1b0ad90f7c961918f71d75e912d8b6ccf77906b81c95a8c",
+      "integrated_sha256": "8f13adb13866cba3b1b0ad90f7c961918f71d75e912d8b6ccf77906b81c95a8c"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/embeddings.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/embeddings.py",
+      "source_sha256": "9c1066f2d3b44317454126ff79256d4aa07f12e736bb09fdf598a09696aa4dde",
+      "integrated_sha256": "9c1066f2d3b44317454126ff79256d4aa07f12e736bb09fdf598a09696aa4dde"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/cotracker/__init__.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/cotracker/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "integrated_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/cotracker/losses.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/cotracker/losses.py",
+      "source_sha256": "fe23dacbfa563f9499e39f78338aad046145211d80f4674e723a6625afb22043",
+      "integrated_sha256": "fe23dacbfa563f9499e39f78338aad046145211d80f4674e723a6625afb22043"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/cotracker/cotracker3_online.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/cotracker/cotracker3_online.py",
+      "source_sha256": "4c8bfce5546d85ba22c6b5292b870ad2aa0af1e0b6ba5a22e644c39bb496475e",
+      "integrated_sha256": "4c8bfce5546d85ba22c6b5292b870ad2aa0af1e0b6ba5a22e644c39bb496475e"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/cotracker/cotracker3_offline.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/cotracker/cotracker3_offline.py",
+      "source_sha256": "41cff5b775ca071ff12bce23ef7887cb639171da84a32e0d75194661101ce238",
+      "integrated_sha256": "41cff5b775ca071ff12bce23ef7887cb639171da84a32e0d75194661101ce238"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/cotracker/cotracker.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/cotracker/cotracker.py",
+      "source_sha256": "711df4fc7d109824e52f8e111df396a2e7d844796084f1f6a4419690c14e6b28",
+      "integrated_sha256": "711df4fc7d109824e52f8e111df396a2e7d844796084f1f6a4419690c14e6b28"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/cotracker/models/core/cotracker/blocks.py",
+      "destination": "reproduce/from_raw/runtime/cotracker3/cotracker/models/core/cotracker/blocks.py",
+      "source_sha256": "65a742fbec3d6a6eed26d40fc7d1179c609b7a35e2cd4b1146ea7800089d6823",
+      "integrated_sha256": "65a742fbec3d6a6eed26d40fc7d1179c609b7a35e2cd4b1146ea7800089d6823"
+    },
+    {
+      "source": "WorldTree/weights/co-tracker/LICENSE.md",
+      "destination": "reproduce/from_raw/runtime/cotracker3/LICENSE.md",
+      "source_sha256": "1d8ca66080a2701508a70be4ddad4be28c509bcc3397a682fb8edf767fdd7a00",
+      "integrated_sha256": "82656a050544ab820c9aa7b61433f5181f8e80cacd042377140962a3e3eb5721"
+    },
+    {
+      "source": "WorldTree/scripts/iphone_divide/extract_dycheck_sam3_test_masks.py",
+      "destination": "reproduce/from_raw/runtime/extract_test_masks.py",
+      "source_sha256": "133405e24a295880be4ac9486bd9d0dc292479973c4fbfbb383fb722da279c01",
+      "integrated_sha256": "177c7a1c55454d05d624d601d5a15d28690f05effa95125543b8aaa67dde6b08"
+    }
+  ]
+}

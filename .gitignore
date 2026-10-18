@@ -1,0 +1,40 @@
+__pycache__/
+.DS_Store
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+dist/
+build/
+artifacts/
+runs/
+slurm/logs/
+*.log
+
+# Model binaries are distributed as separate artifacts.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+vendor/mosca/weights/
+vendor/mosca/lib_prior/depth_models/vggt-omega/checkpoints/
+
+# Local datasets, experiments and assistant state are not source releases.
+/data/
+/experiments/
+/.agents/
+/.codex/
+.venv*/
+
+# Local inputs, generated outputs and experiment material.
+/input/
+/output/
+/outputs/
+/models/
+/logs/
+/work/
+# Reproduction source is public; generated campaign assets remain excluded.
+/reproduce/**/results/
+/release/
+*.xlsx

@@ -1,0 +1,21 @@
+dep_mode: depthanything3
+tap_mode: cowtracker
+flow_mode: raft
+
+dynamic_mask_mode: raft_epi
+compute_flow: True
+rgb_dirname: images
+
+# RAFT epipolar error threshold, matching demo scale.
+epi_th: 0.0001
+depth_boundary_th: 1.0
+
+tap_chunk_size: 5000
+n_track_uniform: 8192
+n_track_pdynamic: 24576
+
+flow_steps: [1, 3]
+epi_num_threads: 16
+
+align_metric_flag: False
+boundary_enhance_th: -1

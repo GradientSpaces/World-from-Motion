@@ -1,0 +1,160 @@
+exp_name: iphone_fit
+mode: iphone_ours_v3
+######################################################
+gpu_id: "0,1"
+exp_id: 10000
+skip_training: False
+skip_eval: False
+skip_stats: False
+gt_cam_idx_list: [1]
+scene_names: [
+    "space-out",
+    "paper-windmill",
+    "apple",
+    "block",
+    "spin",
+    "teddy",
+    "wheel",
+]
+override_eval: True
+override_mask_eval: True
+stack_depth_max: 2 # NOTE: !!!
+mid_split: True
+min_interval: 12
+max_depth_for_static: 0
+max_depth_for_cams: 0
+resume_photometric_reconstruct: False # NOTE: !!!
+inherit_father: True
+child_layer_dynamic_n_init: [30000, 5000, 2000]
+use_fachain: True # NOTE: !!!
+fachain_optim: True
+fachain_optim_activate_length: 2
+fachain_ref_time_mask: False
+total_steps_list: [4000, 1000, 1000]
+decay_start_list: [1000, 250, 250]
+optim_cam_after_steps_list: [1000, 0, 0, 0]
+eval_tree_height_start: 0 # NOTE: !!!
+extend_length: 100000 # 12
+optim_stage_decay: False
+child_deactivate_corr: True
+######################################################
+photo_warm_epi_th: 0.00003 # ! set to normal range!
+photo_warm_reset_opacity: True
+photo_static_warm_steps: 6000 # ! debug for now #8000
+photo_warm_optim_cam_after_steps: 3000
+photo_warm_lambda_rgb: 1.0
+photo_warm_lambda_dep: 0.05
+photo_warm_lambda_normal: 0.1
+photo_warm_random_bg: True
+photo_warm_lr_sph_rest_factor: 10.0 #4.0
+photo_warm_viz_interval: 2000
+photo_warm_lr_p: 0.0003
+photo_warm_lr_p_final: 0.000001
+photo_warm_lr_q: 0.001
+photo_warm_lr_s: 0.01
+photo_warm_lr_o: 0.3
+photo_warm_lr_sph: 0.0025
+photo_warm_s_ctrl_reset_steps: 2001
+photo_warm_s_ctrl_densify_steps: 400
+photo_warm_s_ctrl_prune_steps: 400
+photo_warm_s_ctrl_reset_opacity: 0.01
+photo_warm_s_ctrl_prune_opacity_th: 0.01
+######################################################
+epi_th: 0.00003
+dyn_id_cnt: 8
+scf_geo_keyframe_rate: 4
+dep_median: -1.0 # don't normalize for now
+
+depth_dirname: sensor_depth
+
+tap_loading_min_valid_cnt: 4
+
+depth_boundary_th: 1.0
+
+# ! manually set the GT camera and focal lr to zero
+init_gt_camera: True
+ba_lr_cam_f: 0.0
+ba_lr_dep_c: 0.0
+ba_lr_dep_s: 0.0
+ba_lr_cam_q: 0.0001
+ba_lr_cam_t: 0.0001
+
+# * mosca init
+mosca_unit_world: 0.02
+mosca_sigma_init_ratio: 5.0
+mosca_dist_k: 3
+mosca_topo_th_ratio: 5.0
+mosca_topo_sample_T: 100
+mosca_skinning_k: 16
+mosca_mlevel_list: [1, 7, 15]
+mosca_mlevel_k_list: [16, 8, 8]
+mosca_mlevel_w_list: [0.4, 0.3, 0.3]
+
+# * GEO SCF
+geo_temporal_diff_shift: [2, 8, 16] # ! this may be different to the photo one because the kye frame resample
+geo_temporal_diff_weight: [0.6, 0.4, 0.3]
+
+geo_mosca_steps: 1500
+geo_mosca_lr_q: 0.03
+geo_mosca_lr_p: 0.03
+# debug
+geo_mosca_viz_interval: 500
+geo_mosca_viz_debug_interval: 500
+
+# * GS init
+gs_static_n_init: 100000 # 30000
+gs_dynamic_n_init: 30000
+gs_radius_max: 0.03
+gs_max_sph_order: 3
+
+# * Photo
+photo_total_steps: 4000 # NOTE: no use since have photo_total_steps_list
+photo_skinning_corr_start_steps: 6000 # NOTE: no use since step < 6000
+photo_lr_np: 0.0003
+photo_lr_nq: 0.0003
+
+photo_lr_w: 0.003
+photo_lambda_small_w_reg: 0.3
+
+photo_lambda_track: 0.1
+photo_track_loss_interval: 3
+photo_track_flow_chance: 0.0
+track_flow_interval_candidates: [1, 3]
+
+photo_temporal_diff_shift: [1, 3, 6]
+photo_temporal_diff_weight: [0.6, 0.3, 0.1]
+photo_optim_cam_after_steps: 2000 # NOTE: no use since have optim_cam_after_steps_list
+
+photo_s_ctrl_prune_opacity_th: 0.01
+photo_d_ctrl_prune_opacity_th: 0.01
+
+photo_d_ctrl_densify_steps: 300
+photo_s_ctrl_densify_steps: 300
+
+photo_d_ctrl_prune_steps: 300
+photo_s_ctrl_prune_steps: 300
+
+photo_d_ctrl_end_ratio: 0.9 # NOTE: ADDED, default is 0.9
+
+# debug
+photo_viz_interval: -1 #1000
+photo_viz_cheap_interval: 1000
+
+photo_d_ctrl_reset_steps: 1000
+photo_s_ctrl_reset_steps: 1000
+
+photo_s2d_trans_steps: [3000, 4000, 5000]
+photo_dyn_scf_prune_steps: [4500, 5500, 6500]
+photo_dyn_scf_prune_sk_th: 0.02
+# photo_dyn_error_grow_steps: [4250, 5250]
+# dyn_error_grow_th: 0.3
+# dyn_error_grow_num_frames: 2
+
+photo_dyn_node_densify_steps: [4250, 5250]
+photo_dyn_node_densify_grad_th: 0.03
+photo_dyn_node_densify_record_start_steps: 2000
+# photo_dyn_node_densify_max_gs_per_new_node: 32 # NOTE: ADD
+
+# photo_dyn_node_densify_steps: [200]
+# photo_dyn_node_densify_grad_th: 0.03
+# photo_dyn_node_densify_record_start_steps: 0

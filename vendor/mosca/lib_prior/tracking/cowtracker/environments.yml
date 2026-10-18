@@ -1,0 +1,36 @@
+name: cowtracker
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      # Core deep learning
+      - torch>=2.0.0
+      - torchvision>=0.15.0
+      - xformers
+      - timm
+      
+      # Numerical / scientific
+      - numpy
+      - scipy
+      - einops
+      
+      # Image / video processing
+      - opencv-python
+      - Pillow
+      - mediapy
+      - matplotlib
+      
+      # Model hub
+      - huggingface_hub
+      
+      # Gradio demo
+      - gradio
+      
+      # Optional: development tools
+      - ipython
+      - ipdb

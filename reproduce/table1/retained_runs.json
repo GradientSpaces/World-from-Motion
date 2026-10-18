@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "description": "Explicit audited runs. Resolve paths against --assets-root; no latest-run discovery.",
+  "runs": [
+    {
+      "method": "ms",
+      "scene": "apple",
+      "checkpoint": "mosca_v2/data/iphone_mv_8_apg/apple_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031341",
+      "workspace": "mosca_v2/data/iphone_mv_8_apg/apple_multiview",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/apple_multiview",
+      "static_metrics": "mosca_v2/data/iphone_mv_8_apg/apple_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031341/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "mosca_v2/data/iphone_mv_8_apg/apple_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031341/tto_per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "block",
+      "checkpoint": "mosca_v2/data/iphone_mv_8_apg/block_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031341",
+      "workspace": "mosca_v2/data/iphone_mv_8_apg/block_multiview",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/block_multiview",
+      "static_metrics": "mosca_v2/data/iphone_mv_8_apg/block_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031341/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "mosca_v2/data/iphone_mv_8_apg/block_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031341/tto_per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "paper-windmill",
+      "checkpoint": "mosca_v2/data/iphone_mv_8_apg/paper-windmill_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031345",
+      "workspace": "mosca_v2/data/iphone_mv_8_apg/paper-windmill_multiview",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/paper-windmill_multiview",
+      "static_metrics": "mosca_v2/data/iphone_mv_8_apg/paper-windmill_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031345/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "mosca_v2/data/iphone_mv_8_apg/paper-windmill_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031345/tto_per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "space-out",
+      "checkpoint": "mosca_v2/data/iphone_mv_8_apg/space-out_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031345",
+      "workspace": "mosca_v2/data/iphone_mv_8_apg/space-out_multiview",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/space-out_multiview",
+      "static_metrics": "mosca_v2/data/iphone_mv_8_apg/space-out_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031345/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "mosca_v2/data/iphone_mv_8_apg/space-out_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031345/tto_per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "spin",
+      "checkpoint": "mosca_v2/data/iphone_mv_8_apg/spin_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031346",
+      "workspace": "mosca_v2/data/iphone_mv_8_apg/spin_multiview",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/spin_multiview",
+      "static_metrics": "mosca_v2/data/iphone_mv_8_apg/spin_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031346/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "mosca_v2/data/iphone_mv_8_apg/spin_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031346/tto_per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "teddy",
+      "checkpoint": "mosca_v2/data/iphone_mv_8_apg/teddy_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031342",
+      "workspace": "mosca_v2/data/iphone_mv_8_apg/teddy_multiview",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/teddy_multiview",
+      "static_metrics": "mosca_v2/data/iphone_mv_8_apg/teddy_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031342/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "mosca_v2/data/iphone_mv_8_apg/teddy_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031342/tto_per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "ms",
+      "scene": "wheel",
+      "checkpoint": "mosca_v2/data/iphone_mv_8_apg/wheel_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031342",
+      "workspace": "mosca_v2/data/iphone_mv_8_apg/wheel_multiview",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/wheel_multiview",
+      "static_metrics": "mosca_v2/data/iphone_mv_8_apg/wheel_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031342/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "mosca_v2/data/iphone_mv_8_apg/wheel_multiview/logs/iphone_multiview_8cam_fit_c8_w020_lp020_ssimon_apg_native_add3_20260517_031342/tto_per_frame/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "apple",
+      "checkpoint": "WorldTree/exp/iphone_reopt_mv/apple_multiview8/iphone_fit_native_add3_20260517_094318",
+      "workspace": "WorldTree/data/iphone_multiview/apple",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/apple_multiview",
+      "static_metrics": "WorldTree/exp/iphone_reopt_mv/apple_multiview8/iphone_fit_native_add3_20260517_094318/rendering_results_h2_first_frame_staticbg_tto/metrics_full_valid_covisible/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "WorldTree/exp/iphone_reopt_mv/apple_multiview8/iphone_fit_native_add3_20260517_094318/rendering_results_h2_per_frame_tto/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "block",
+      "checkpoint": "WorldTree/exp/iphone_reopt_mv/block_multiview8/iphone_fit_native_add3_20260517_094315",
+      "workspace": "WorldTree/data/iphone_multiview/block",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/block_multiview",
+      "static_metrics": "WorldTree/exp/iphone_reopt_mv/block_multiview8/iphone_fit_native_add3_20260517_094315/rendering_results_h2_first_frame_staticbg_tto/metrics_full_valid_covisible/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "WorldTree/exp/iphone_reopt_mv/block_multiview8/iphone_fit_native_add3_20260517_094315/rendering_results_h2_per_frame_tto/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "paper-windmill",
+      "checkpoint": "WorldTree/exp/iphone_reopt_mv/paper-windmill_multiview8/iphone_fit_native_add3_20260517_094212",
+      "workspace": "WorldTree/data/iphone_multiview/paper-windmill",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/paper-windmill_multiview",
+      "static_metrics": "WorldTree/exp/iphone_reopt_mv/paper-windmill_multiview8/iphone_fit_native_add3_20260517_094212/rendering_results_h2_first_frame_staticbg_tto/metrics_full_valid_covisible/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "WorldTree/exp/iphone_reopt_mv/paper-windmill_multiview8/iphone_fit_native_add3_20260517_094212/rendering_results_h2_per_frame_tto/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "space-out",
+      "checkpoint": "WorldTree/exp/iphone_reopt_mv/space-out_multiview8/iphone_fit_native_add3_20260517_094319",
+      "workspace": "WorldTree/data/iphone_multiview/space-out",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/space-out_multiview",
+      "static_metrics": "WorldTree/exp/iphone_reopt_mv/space-out_multiview8/iphone_fit_native_add3_20260517_094319/rendering_results_h2_first_frame_staticbg_tto/metrics_full_valid_covisible/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "WorldTree/exp/iphone_reopt_mv/space-out_multiview8/iphone_fit_native_add3_20260517_094319/rendering_results_h2_per_frame_tto/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "spin",
+      "checkpoint": "WorldTree/exp/iphone_reopt_mv/spin_multiview8/iphone_fit_native_add3_20260517_094315",
+      "workspace": "WorldTree/data/iphone_multiview/spin",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/spin_multiview",
+      "static_metrics": "WorldTree/exp/iphone_reopt_mv/spin_multiview8/iphone_fit_native_add3_20260517_094315/rendering_results_h2_first_frame_staticbg_tto/metrics_full_valid_covisible/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "WorldTree/exp/iphone_reopt_mv/spin_multiview8/iphone_fit_native_add3_20260517_094315/rendering_results_h2_per_frame_tto/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "teddy",
+      "checkpoint": "WorldTree/exp/iphone_reopt_mv/teddy_multiview8/iphone_fit_native_add3_20260517_094248",
+      "workspace": "WorldTree/data/iphone_multiview/teddy",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/teddy_multiview",
+      "static_metrics": "WorldTree/exp/iphone_reopt_mv/teddy_multiview8/iphone_fit_native_add3_20260517_094248/rendering_results_h2_first_frame_staticbg_tto/metrics_full_valid_covisible/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "WorldTree/exp/iphone_reopt_mv/teddy_multiview8/iphone_fit_native_add3_20260517_094248/rendering_results_h2_per_frame_tto/tto_dycheck_metrics.xlsx"
+    },
+    {
+      "method": "wt",
+      "scene": "wheel",
+      "checkpoint": "WorldTree/exp/iphone_reopt_mv/wheel_multiview8/iphone_fit_native_add3_20260517_094252",
+      "workspace": "WorldTree/data/iphone_multiview/wheel",
+      "metric_workspace": "mosca_v2/data/iphone_mv_8_apg/wheel_multiview",
+      "static_metrics": "WorldTree/exp/iphone_reopt_mv/wheel_multiview8/iphone_fit_native_add3_20260517_094252/rendering_results_h2_first_frame_staticbg_tto/metrics_full_valid_covisible/tto_dycheck_metrics.xlsx",
+      "per_frame_metrics": "WorldTree/exp/iphone_reopt_mv/wheel_multiview8/iphone_fit_native_add3_20260517_094252/rendering_results_h2_per_frame_tto/tto_dycheck_metrics.xlsx"
+    }
+  ]
+}

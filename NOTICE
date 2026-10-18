@@ -1,0 +1,16 @@
+World from Motion
+Copyright (c) 2026 NVIDIA Corporation. All rights reserved.
+
+The original World from Motion source code and the WfM step-12500 checkpoint
+are licensed under the Apache License, Version 2.0. See LICENSE.
+
+WfM step-12500 is a modified, fine-tuned model based on Wan2.1-VACE-14B,
+published by Wan-AI under the Apache License, Version 2.0.
+Base revision: 539c162b1387eac9dc4c20bd3f74671309e76a4c
+Source: https://huggingface.co/Wan-AI/Wan2.1-VACE-14B
+Checkpoint: wfm-step-12500.safetensors
+SHA-256: 32aa1215af2dd36a6dc07900e6196486c914003a5f5934b7fa51498c05301c01
+
+Bundled third-party code and separately obtained pretrained models retain
+their respective copyrights and licenses. See THIRD_PARTY_NOTICES.md and
+the notices and license files accompanying those components.

@@ -1,0 +1,6 @@
+# Compiled PyG packages observed with PyTorch 2.3.1+cu121 / Python 3.10.
+--find-links https://data.pyg.org/whl/torch-2.3.0+cu121.html
+torch-cluster==1.6.3+pt23cu121
+torch-scatter==2.1.2+pt23cu121
+torch-sparse==0.6.18+pt23cu121
+pyg-lib==0.4.0+pt23cu121

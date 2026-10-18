@@ -1,0 +1,47 @@
+exp_name: iphone_eval_h2_per_frame_tto
+mode: iphone_ours_v3
+######################################################
+gpu_id: "0"
+exp_id: 10000
+skip_training: True
+skip_eval: False
+skip_stats: True
+gt_cam_idx_list: [1]
+scene_names: [
+    "space-out",
+    "paper-windmill",
+    "apple",
+    "block",
+    "spin",
+    "teddy",
+    "wheel",
+]
+override_eval: True
+override_mask_eval: True
+eval_tto: True
+eval_tto_mode: per_frame
+eval_tto_static_camera_after_first: False
+eval_rendering_dir_name: rendering_results_h{height}_per_frame_tto
+stack_depth_max: 2
+eval_tree_height_start: 2
+mid_split: True
+min_interval: 12
+max_depth_for_static: 0
+max_depth_for_cams: 0
+resume_photometric_reconstruct: True
+inherit_father: True
+child_layer_dynamic_n_init: [30000, 5000, 2000]
+use_fachain: True
+fachain_optim: True
+fachain_optim_activate_length: 2
+fachain_ref_time_mask: False
+total_steps_list: [4000, 1000, 1000]
+decay_start_list: [1000, 250, 250]
+optim_cam_after_steps_list: [1000, 0, 0, 0]
+extend_length: 100000
+optim_stage_decay: False
+child_deactivate_corr: True
+######################################################
+depth_dirname: sensor_depth
+depth_boundary_th: 1.0
+tap_loading_min_valid_cnt: 4

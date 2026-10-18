@@ -1,0 +1,47 @@
+python_bin: python
+device: cuda
+fit_overrides:
+  - multiview_selected_cameras=[cam100,cam101,cam102,cam103]
+  - use_multiview_depth_init=False
+  - use_multiview_depth_gs_init=False
+  - use_multiview_depth_sup=False
+  - photo_total_steps=15000
+  - photo_optim_cam_after_steps=3750
+  - photo_decay_start=3750
+  - photo_skinning_corr_start_steps=11250
+  - photo_s2d_trans_steps=[5625,7500,9375]
+  - photo_dyn_scf_prune_steps=[8438,10313,12188]
+  - photo_dyn_node_densify_steps=[7969,9844]
+  - photo_lambda_lpips=0.8
+  - multiview_rgb_ssim_lambda=0.1
+  - multiview_camera_weights.cam0=1.0
+  - multiview_camera_weights.cam100=0.8
+  - multiview_camera_weights.cam101=0.8
+  - multiview_camera_weights.cam102=0.8
+  - multiview_camera_weights.cam103=0.8
+  - multiview_camera_weights.cam104=0.8
+  - multiview_camera_weights.cam105=0.8
+  - multiview_camera_weights.cam106=0.8
+  - multiview_camera_weights.cam107=0.8
+scenes:
+  apple:
+    workspace: data/iphone_mv_8/apple_multiview
+    fit_cfg: profile/iphone/iphone_multiview_8cam_fit.yaml
+  block:
+    workspace: data/iphone_mv_8/block_multiview
+    fit_cfg: profile/iphone/iphone_multiview_8cam_fit.yaml
+  paper-windmill:
+    workspace: data/iphone_mv_8/paper-windmill_multiview
+    fit_cfg: profile/iphone/iphone_multiview_8cam_fit.yaml
+  space-out:
+    workspace: data/iphone_mv_8/space-out_multiview
+    fit_cfg: profile/iphone/iphone_multiview_8cam_fit.yaml
+  spin:
+    workspace: data/iphone_mv_8/spin_multiview
+    fit_cfg: profile/iphone/iphone_multiview_8cam_fit.yaml
+  teddy:
+    workspace: data/iphone_mv_8/teddy_multiview
+    fit_cfg: profile/iphone/iphone_multiview_8cam_fit.yaml
+  wheel:
+    workspace: data/iphone_mv_8/wheel_multiview
+    fit_cfg: profile/iphone/iphone_multiview_8cam_fit.yaml

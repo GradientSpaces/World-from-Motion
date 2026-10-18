@@ -1,0 +1,1771 @@
+{
+  "schema_version": 1,
+  "aggregation": "Arithmetic mean of seven per-scene means, not a pooled frame mean.",
+  "rows": {
+    "ms": {
+      "psnr": 17.355865750731166,
+      "ssim": 0.570192138440484,
+      "lpips": 0.26399189201624484,
+      "valid_psnr": 18.88074111799186,
+      "valid_ssim": 0.6609015660498436,
+      "valid_lpips": 0.2017746767094207,
+      "mpsnr": 19.73507026865231,
+      "mssim": 0.710226622512716,
+      "mlpips": 0.18014416678191655,
+      "pose_mpsnr": 19.981719875634433,
+      "pose_mssim": 0.7163303810538093,
+      "pose_mlpips": 0.1777303940819495
+    },
+    "wt": {
+      "psnr": 17.551981255144828,
+      "ssim": 0.5880430434110702,
+      "lpips": 0.3035635457876044,
+      "valid_psnr": 19.07699589401532,
+      "valid_ssim": 0.6749618248112819,
+      "valid_lpips": 0.244356304897613,
+      "mpsnr": 19.956140699756887,
+      "mssim": 0.7237037962944143,
+      "mlpips": 0.21769273498145447,
+      "pose_mpsnr": 20.260119116301915,
+      "pose_mssim": 0.7324093540604877,
+      "pose_mlpips": 0.21508725291254985
+    }
+  },
+  "scenes": {
+    "ms": {
+      "apple": {
+        "frame_rows": 532,
+        "metrics": {
+          "psnr": 18.06527551851774,
+          "ssim": 0.5073419349422132,
+          "lpips": 0.3672242186212988,
+          "valid_psnr": 18.45035243751411,
+          "valid_ssim": 0.7310745935691031,
+          "valid_lpips": 0.3063619396423823,
+          "mpsnr": 19.87414112664703,
+          "mssim": 0.807574038106696,
+          "mlpips": 0.2880432551561234,
+          "pose_mpsnr": 20.03912523097562,
+          "pose_mssim": 0.8157891720757449,
+          "pose_mlpips": 0.2844738116409188
+        },
+        "static_workbook_sha256": "7ab451508994b4f3d5b48566cd8f0b383e38466f05c7b180d9390c30355b525c",
+        "per_frame_workbook_sha256": "2d8aedb005db855cf55253b31b15fa4c6d0ec2f9c362a6c97e7e5f6c62526b19"
+      },
+      "block": {
+        "frame_rows": 667,
+        "metrics": {
+          "psnr": 17.69425364126866,
+          "ssim": 0.5569874737216257,
+          "lpips": 0.2773853096176631,
+          "valid_psnr": 18.46572943034022,
+          "valid_ssim": 0.605485707029946,
+          "valid_lpips": 0.2204065868733558,
+          "mpsnr": 18.80751354154618,
+          "mssim": 0.697409070771316,
+          "mlpips": 0.1731314208277815,
+          "pose_mpsnr": 18.89553753940062,
+          "pose_mssim": 0.6992493287912909,
+          "pose_mlpips": 0.1732690057130302
+        },
+        "static_workbook_sha256": "c054362a2c9db6c1fe8dd8d4ce769117eb4337ae04942702948a87c62f202501",
+        "per_frame_workbook_sha256": "8797240e06e7c5767697f11ffcd8c0df061ecf1ee9bd53012295a1562e9b3905"
+      },
+      "paper-windmill": {
+        "frame_rows": 419,
+        "metrics": {
+          "psnr": 21.76454685639083,
+          "ssim": 0.6662315118853402,
+          "lpips": 0.1350150702126524,
+          "valid_psnr": 21.99391180689409,
+          "valid_ssim": 0.6771099028268691,
+          "valid_lpips": 0.1287229725848327,
+          "mpsnr": 22.0096114620673,
+          "mssim": 0.6799033581499269,
+          "mlpips": 0.1281770968065878,
+          "pose_mpsnr": 22.32572429447584,
+          "pose_mssim": 0.71756445394211,
+          "pose_mlpips": 0.1244496260879716
+        },
+        "static_workbook_sha256": "34ee25cb7b616074158c83d7c7c627e1cbc177b61f9a028cba21857238713175",
+        "per_frame_workbook_sha256": "007536440f473f057de249b4339eb1fe4f28410c84b50ae539b24df201487fcc"
+      },
+      "space-out": {
+        "frame_rows": 681,
+        "metrics": {
+          "psnr": 18.84599531904716,
+          "ssim": 0.6436442107881218,
+          "lpips": 0.193270491418992,
+          "valid_psnr": 20.27518866170696,
+          "valid_ssim": 0.6857640893798918,
+          "valid_lpips": 0.1430622174053112,
+          "mpsnr": 20.28313490297651,
+          "mssim": 0.7022639317834605,
+          "mlpips": 0.1378929089205727,
+          "pose_mpsnr": 21.21606821740776,
+          "pose_mssim": 0.6975058977124274,
+          "pose_mlpips": 0.1272747619363542
+        },
+        "static_workbook_sha256": "0861e0dbef943d2b0f4d5132cab4eb6ff4b3607166b0fb33a54d14ce0322651d",
+        "per_frame_workbook_sha256": "b21186ba7db65fe4003760f6145a4e049bc0d73d75d3474ba20a35f90d412627"
+      },
+      "spin": {
+        "frame_rows": 722,
+        "metrics": {
+          "psnr": 18.68472659620882,
+          "ssim": 0.6477673052090357,
+          "lpips": 0.2222292585496153,
+          "valid_psnr": 20.29070616428872,
+          "valid_ssim": 0.7008502277806195,
+          "valid_lpips": 0.1808050370642343,
+          "mpsnr": 22.47296465136668,
+          "mssim": 0.7526488085367673,
+          "mlpips": 0.1582198496191919,
+          "pose_mpsnr": 22.52778570803909,
+          "pose_mssim": 0.7535610499474481,
+          "pose_mlpips": 0.1573534719466425
+        },
+        "static_workbook_sha256": "69ffe9be49a374842e17545fc50ecb6b81e8abbf29c7277afae43035bcee31db",
+        "per_frame_workbook_sha256": "340bef120f477d60023b184f55f8421d64070ca093ac2a80bb24e19c01ea7be9"
+      },
+      "teddy": {
+        "frame_rows": 688,
+        "metrics": {
+          "psnr": 13.50091589883316,
+          "ssim": 0.4033789684952692,
+          "lpips": 0.4238635547845885,
+          "valid_psnr": 15.91415232697199,
+          "valid_ssim": 0.5683965713738702,
+          "valid_lpips": 0.2696405220612629,
+          "mpsnr": 15.91729650941006,
+          "mssim": 0.6292267529250577,
+          "mlpips": 0.2353861159924365,
+          "pose_mpsnr": 15.84382527512173,
+          "pose_mssim": 0.6193760445038247,
+          "pose_mlpips": 0.2385255249896989
+        },
+        "static_workbook_sha256": "afa588289c4f750f80e868146c51a8ca36f9e6552c36f3d0a2fe97fbd11d4424",
+        "per_frame_workbook_sha256": "3dd317a8a46a577ecce22c0845594614f2ba9f1bafc6dc2b840200c3056c0c23"
+      },
+      "wheel": {
+        "frame_rows": 219,
+        "metrics": {
+          "psnr": 12.93534642485179,
+          "ssim": 0.5659935640417821,
+          "lpips": 0.2289553409089039,
+          "valid_psnr": 16.77514699822692,
+          "valid_ssim": 0.6576298703886059,
+          "valid_lpips": 0.1634234613345657,
+          "mpsnr": 18.78082968655242,
+          "mssim": 0.7025603973157873,
+          "mlpips": 0.1401585201507221,
+          "pose_mpsnr": 19.02397286402036,
+          "pose_mssim": 0.7112667204038193,
+          "pose_mlpips": 0.1387665562590302
+        },
+        "static_workbook_sha256": "89edd5aab3db3aa30589dd0e26cf5c46808fcbc08c3626687a312210f4f4fe04",
+        "per_frame_workbook_sha256": "e40fe75d47c5dac1521700e84626cf04212b79afafe09bd92684b1c9a3333053"
+      }
+    },
+    "wt": {
+      "apple": {
+        "frame_rows": 532,
+        "metrics": {
+          "psnr": 18.09236661294349,
+          "ssim": 0.520423967251204,
+          "lpips": 0.4156381911196066,
+          "valid_psnr": 18.36297154247313,
+          "valid_ssim": 0.7339943101755658,
+          "valid_lpips": 0.349188338379962,
+          "mpsnr": 19.7223841158071,
+          "mssim": 0.8100484668984449,
+          "mlpips": 0.3220883362384008,
+          "pose_mpsnr": 19.72659695058837,
+          "pose_mssim": 0.811767657784591,
+          "pose_mlpips": 0.3200540225855038
+        },
+        "static_workbook_sha256": "7c72f9d9c295ffa5842be22ae6825c10c7856d50482c31fcf89405bd70855872",
+        "per_frame_workbook_sha256": "2ead15b9b6f5162b926130ba9e09270c99552faa76f99a75158157fbbfcf7df3"
+      },
+      "block": {
+        "frame_rows": 667,
+        "metrics": {
+          "psnr": 17.53886149490791,
+          "ssim": 0.5716385275706358,
+          "lpips": 0.3462287333590121,
+          "valid_psnr": 18.19047787021482,
+          "valid_ssim": 0.6170967817306519,
+          "valid_lpips": 0.3022015190183999,
+          "mpsnr": 18.74648032124075,
+          "mssim": 0.7098838025662138,
+          "mlpips": 0.2374098367277737,
+          "pose_mpsnr": 19.355825229742,
+          "pose_mssim": 0.7185515164435357,
+          "pose_mlpips": 0.2292519460334482
+        },
+        "static_workbook_sha256": "a5f635867ad351265a26f6ccbca5934669a72f4b8faf3eada7ce9462a7691674",
+        "per_frame_workbook_sha256": "432981934445f063ee5d30ae1b349d67143e84336c9f2d1127b87323489dbc97"
+      },
+      "paper-windmill": {
+        "frame_rows": 419,
+        "metrics": {
+          "psnr": 21.50505119633276,
+          "ssim": 0.6820216416459095,
+          "lpips": 0.1563794349928345,
+          "valid_psnr": 21.82543903432769,
+          "valid_ssim": 0.6933098112484152,
+          "valid_lpips": 0.1481883372911867,
+          "mpsnr": 21.83768555998518,
+          "mssim": 0.6961569104672616,
+          "mlpips": 0.1469696713566211,
+          "pose_mpsnr": 22.20719438520991,
+          "pose_mssim": 0.7408840679041241,
+          "pose_mlpips": 0.143518671221416
+        },
+        "static_workbook_sha256": "687c321e26246dd7f42cef0f6c5b7ebffdc740c1d4e4803012ed7f74fcd0fd07",
+        "per_frame_workbook_sha256": "9db2938294f9989311b6f836057f94942814b2cb2826d7885c87683840b4a65b"
+      },
+      "space-out": {
+        "frame_rows": 681,
+        "metrics": {
+          "psnr": 21.09345945282655,
+          "ssim": 0.7325296528889044,
+          "lpips": 0.1954107380851026,
+          "valid_psnr": 23.19486131261974,
+          "valid_ssim": 0.769642599178656,
+          "valid_lpips": 0.1380999378797016,
+          "mpsnr": 23.33449925550105,
+          "mssim": 0.7827651833297573,
+          "mlpips": 0.1292877980552548,
+          "pose_mpsnr": 23.62707695421843,
+          "pose_mssim": 0.7753970001587609,
+          "pose_mlpips": 0.1299423216312048
+        },
+        "static_workbook_sha256": "9b27de482942eaf7ae5e0ca6463f09f7eee9bb671e32b53f461a71a40d8c4eb8",
+        "per_frame_workbook_sha256": "68a773594bf762b80e23fdd55487be5cdf70612ac230dbeeff0d31b8ed41c3fd"
+      },
+      "spin": {
+        "frame_rows": 722,
+        "metrics": {
+          "psnr": 18.59829845058621,
+          "ssim": 0.6608248222567699,
+          "lpips": 0.2374711453806068,
+          "valid_psnr": 20.0570651025323,
+          "valid_ssim": 0.7106875641028967,
+          "valid_lpips": 0.1985479524111676,
+          "mpsnr": 22.23796013649811,
+          "mssim": 0.7622661347864738,
+          "mlpips": 0.1683934012373313,
+          "pose_mpsnr": 22.28912443599543,
+          "pose_mssim": 0.7564915465681177,
+          "pose_mlpips": 0.1677924632480217
+        },
+        "static_workbook_sha256": "485eaa3d96c1e0b7d5f9998fc86eb84e50ab5a530121fb6d2cdc8df74499528f",
+        "per_frame_workbook_sha256": "ef09f530c0f40f62eb06241f22198e6a8a8c8e2244c5078711bc33f811bf0495"
+      },
+      "teddy": {
+        "frame_rows": 688,
+        "metrics": {
+          "psnr": 12.94725542706112,
+          "ssim": 0.3834081128846074,
+          "lpips": 0.4870860965104016,
+          "valid_psnr": 15.09797761745231,
+          "valid_ssim": 0.5465207999615476,
+          "valid_lpips": 0.347970359525329,
+          "mpsnr": 15.23099069817122,
+          "mssim": 0.6067510119877583,
+          "mlpips": 0.3167884079630297,
+          "pose_mpsnr": 15.7780978069749,
+          "pose_mssim": 0.6203093959754983,
+          "pose_mlpips": 0.3131276051760593
+        },
+        "static_workbook_sha256": "05a23801bfe16a266892c8db170d69ffefd9d6eef13912093a1b80b79cce0dc5",
+        "per_frame_workbook_sha256": "6ef81cb998ddcbb55051163951a1c34e62a4a7c64fdfee29acce3cc0473aa0dc"
+      },
+      "wheel": {
+        "frame_rows": 219,
+        "metrics": {
+          "psnr": 13.08857615135576,
+          "ssim": 0.5654545793794605,
+          "lpips": 0.2867304810656669,
+          "valid_psnr": 16.81017877848725,
+          "valid_ssim": 0.6534809072812399,
+          "valid_lpips": 0.2262976897775442,
+          "mpsnr": 18.5829848110948,
+          "mssim": 0.6980550640249905,
+          "mlpips": 0.20291169329177,
+          "pose_mpsnr": 18.83691805138436,
+          "pose_mssim": 0.7034642935887864,
+          "pose_mlpips": 0.2019237404921952
+        },
+        "static_workbook_sha256": "6511bc5bb98984d44df9649d5a3b2a94fb8b8a98255fceec61f0860e40e9295c",
+        "per_frame_workbook_sha256": "1f6ad51e83690e1f96a028bc547ace3156d8dac90237f6a165efddbe117ca5a9"
+      }
+    }
+  },
+  "checkpoints": {
+    "ms/apple": [
+      {
+        "path": "photometric_cam.pth",
+        "bytes": 16480,
+        "sha256": "9cde73493ace8f863836978c92c2d4c0ea8d046ba164a1044761f03a6ffb7b54"
+      },
+      {
+        "path": "photometric_s_model_native_add3.pth",
+        "bytes": 81685319,
+        "sha256": "b1567206eb474641a00ffeb18c16cf82113fbf32e8ff790ae242555d671617e4"
+      },
+      {
+        "path": "photometric_d_model_native_add3.pth",
+        "bytes": 18901883,
+        "sha256": "d9e1a6568d5a54453c2bda19de32ad663812d8db7ef651925a71793e863fc177"
+      }
+    ],
+    "ms/block": [
+      {
+        "path": "photometric_cam.pth",
+        "bytes": 15648,
+        "sha256": "c06322ca99db3c1e58dc1e1ab94304b96a710e63804e5594ee3f354669802c81"
+      },
+      {
+        "path": "photometric_s_model_native_add3.pth",
+        "bytes": 47667143,
+        "sha256": "1b2c5ec62cc1e3bdaf62422d0188f97656c5838d245d904810c8611bc7a87790"
+      },
+      {
+        "path": "photometric_d_model_native_add3.pth",
+        "bytes": 120631675,
+        "sha256": "c0e0637417ec1bc12204ae0bf5fd9f79900391e8bb3dbecda21ca439299df1d2"
+      }
+    ],
+    "ms/paper-windmill": [
+      {
+        "path": "photometric_cam.pth",
+        "bytes": 10976,
+        "sha256": "5208761f85e5cd2a2fd804a1debcaafe0fcd0be6bfcde909211500482f2fab2b"
+      },
+      {
+        "path": "photometric_s_model_native_add3.pth",
+        "bytes": 112891079,
+        "sha256": "e1d98d0ecbb93dee656cf168f85661e538090392e899a558b9bd62aadef65276"
+      },
+      {
+        "path": "photometric_d_model_native_add3.pth",
+        "bytes": 12006651,
+        "sha256": "5212edd102f837526081a809f60ea33149149cdce18c3f88efdd02e6ac01936d"
+      }
+    ],
+    "ms/space-out": [
+      {
+        "path": "photometric_cam.pth",
+        "bytes": 15200,
+        "sha256": "f534cdeb3ecf23843026264ec549ee9ef97f9645166e2ea7a83a2a4926651dc3"
+      },
+      {
+        "path": "photometric_s_model_native_add3.pth",
+        "bytes": 44818055,
+        "sha256": "e846754ac32c87a3dde482a766231f955b903c8b85dff18f537dfefe9033f38c"
+      },
+      {
+        "path": "photometric_d_model_native_add3.pth",
+        "bytes": 103583995,
+        "sha256": "6c712fce680c047cfa432860a00aab8e187b32e7e2034905ff6296a67d675a46"
+      }
+    ],
+    "ms/spin": [
+      {
+        "path": "photometric_cam.pth",
+        "bytes": 15072,
+        "sha256": "2b3bad644e2b71de3552c0937af3279c104f5c7791a72d8233b887add6ba8ee9"
+      },
+      {
+        "path": "photometric_s_model_native_add3.pth",
+        "bytes": 72437511,
+        "sha256": "106c15c3b46f95a02be77a23a4515c69af8d7d063b5c1c97e9d1ef38af13bfb3"
+      },
+      {
+        "path": "photometric_d_model_native_add3.pth",
+        "bytes": 120607099,
+        "sha256": "b2d706583b83174a9537254e10faa63fa2edb90c2fb9b6e9bcf40858d4ea997e"
+      }
+    ],
+    "ms/teddy": [
+      {
+        "path": "photometric_cam.pth",
+        "bytes": 16416,
+        "sha256": "c6b6ee4cc62517d1e0dff5102cc1b96992a6a88bc957f90e0509fd6f9117adbf"
+      },
+      {
+        "path": "photometric_s_model_native_add3.pth",
+        "bytes": 41152583,
+        "sha256": "beb0631b5b0f056fa6c9a45ffc8a5eaf73a96759a22363c09428bdc96f085e23"
+      },
+      {
+        "path": "photometric_d_model_native_add3.pth",
+        "bytes": 86553467,
+        "sha256": "a49bca1e074d213929400e77b587dcf9431812a80ff245f04046f876980b1b27"
+      }
+    ],
+    "ms/wheel": [
+      {
+        "path": "photometric_cam.pth",
+        "bytes": 15456,
+        "sha256": "35c75b8c0eee6ff3e44007a9ddf3e8438ac1d2443f9620ca21ba52dfdebbb047"
+      },
+      {
+        "path": "photometric_s_model_native_add3.pth",
+        "bytes": 66418247,
+        "sha256": "4548cfaeffb98dec27fe0b2d153b18e5e701d4f8270465b6de07441d48ecf12b"
+      },
+      {
+        "path": "photometric_d_model_native_add3.pth",
+        "bytes": 85159163,
+        "sha256": "8d359033304818c037bfa5c093e28e3415586f77df0c26cdde6297d50a1702c1"
+      }
+    ],
+    "wt/apple": [
+      {
+        "path": "dst_L000_R117/photometric_cam.pth",
+        "bytes": 9824,
+        "sha256": "213ac3ca44f2865a96fac62722ae676a6c93b31afc75ba42566c9e310c5356d2"
+      },
+      {
+        "path": "dst_L000_R117/photometric_s_model_native_add3.pth",
+        "bytes": 40345735,
+        "sha256": "b67459e9c6e6961b789ee7fd92e81237c35e2b9258d1f0a94afc3fa5babd8ed1"
+      },
+      {
+        "path": "dst_L000_R117/photometric_d_model_native_add3.pth",
+        "bytes": 2227175,
+        "sha256": "52bd17a487c80f262ef37bb7e21cdfb1c7da368cd16bfab71cf84dee0557e45e"
+      },
+      {
+        "path": "dst_L000_R117/dst_L000_R236/photometric_d_model_native_add3.pth",
+        "bytes": 4734951,
+        "sha256": "b097549555f414bea9240aac7e862a06394dd88920fecb3460de126105c8f90a"
+      },
+      {
+        "path": "dst_L000_R117/dst_L000_R474/photometric_d_model_native_add3.pth",
+        "bytes": 12568551,
+        "sha256": "fa90f7bee1483cd78cedb1b2fc055bb6f1bb23f19b6e2af25e6553fe3cbd7f2a"
+      },
+      {
+        "path": "dst_L000_R236/photometric_cam.pth",
+        "bytes": 16480,
+        "sha256": "6540f7fb745db61440305db318bf8e1aaad92c9955e9e8224a6358bb63b0c7c2"
+      },
+      {
+        "path": "dst_L000_R236/photometric_s_model_native_add3.pth",
+        "bytes": 40345735,
+        "sha256": "b67459e9c6e6961b789ee7fd92e81237c35e2b9258d1f0a94afc3fa5babd8ed1"
+      },
+      {
+        "path": "dst_L000_R236/photometric_d_model_native_add3.pth",
+        "bytes": 4734951,
+        "sha256": "8254d59af27b9110f4649d73f208aa7f70e4480750d0c7af74184b01c8be1483"
+      },
+      {
+        "path": "dst_L000_R236/dst_L000_R474/photometric_d_model_native_add3.pth",
+        "bytes": 12568551,
+        "sha256": "8838b5968b6246c322e217261cbaac2cc7ec6a3dcd766c5562aef9992cbb9897"
+      },
+      {
+        "path": "dst_L000_R474/photometric_cam.pth",
+        "bytes": 16480,
+        "sha256": "1919ee6e460208816b53d4a4ed6b14ecfc75d6811e4e9ea30d2d2a5e30b3ac7f"
+      },
+      {
+        "path": "dst_L000_R474/photometric_s_model_native_add3.pth",
+        "bytes": 39715399,
+        "sha256": "58b5dbc848365b6e28b8d9904d27c2d7c382e51ce2e70d91e6ed04a695b84d76"
+      },
+      {
+        "path": "dst_L000_R474/photometric_d_model_native_add3.pth",
+        "bytes": 12492135,
+        "sha256": "e3d478eb21725947964a0d153ec1e1f63edb88ca8f307948a6fb9395294797bb"
+      },
+      {
+        "path": "dst_L118_R236/photometric_cam.pth",
+        "bytes": 9824,
+        "sha256": "4788e17c085f47d8bb10bcaeecea33c2b5e81fcbe1b4fb723fea7c9340bf05d2"
+      },
+      {
+        "path": "dst_L118_R236/photometric_s_model_native_add3.pth",
+        "bytes": 40345735,
+        "sha256": "cba5041e6c0036b0bec44bb38318f8d2d51b1984968f14c2b22df2095eb7e727"
+      },
+      {
+        "path": "dst_L118_R236/photometric_d_model_native_add3.pth",
+        "bytes": 2239399,
+        "sha256": "16c6fc15d2aef2af009b49d8a74f71af09e1bed0ad595c6e5813d205e6fa9e21"
+      },
+      {
+        "path": "dst_L118_R236/dst_L000_R236/photometric_d_model_native_add3.pth",
+        "bytes": 4734951,
+        "sha256": "da1212af5d7e1635717450f108bc4022873a93905597af4589d4bd5da42c903c"
+      },
+      {
+        "path": "dst_L118_R236/dst_L000_R474/photometric_d_model_native_add3.pth",
+        "bytes": 12568551,
+        "sha256": "8807b1218bdd9b007699d3509a19e67bb45280f3affc565436c0b6d9de9a6c50"
+      },
+      {
+        "path": "dst_L237_R354/photometric_cam.pth",
+        "bytes": 9824,
+        "sha256": "ad27da53fe635a2c8f819f883423b553642af5387b22d88f14f2b7e237a3802b"
+      },
+      {
+        "path": "dst_L237_R354/photometric_s_model_native_add3.pth",
+        "bytes": 40345735,
+        "sha256": "b67459e9c6e6961b789ee7fd92e81237c35e2b9258d1f0a94afc3fa5babd8ed1"
+      },
+      {
+        "path": "dst_L237_R354/photometric_d_model_native_add3.pth",
+        "bytes": 2227175,
+        "sha256": "79ae5b2f2647bde46d9b65c1bf295d81fca299a93423f113131d98e5f15fad61"
+      },
+      {
+        "path": "dst_L237_R354/dst_L000_R474/photometric_d_model_native_add3.pth",
+        "bytes": 12568551,
+        "sha256": "ddd60df71f3267ebf22f8c6107a29ab8aaba851f7193a31ef8be619bd8b89205"
+      },
+      {
+        "path": "dst_L237_R354/dst_L237_R474/photometric_d_model_native_add3.pth",
+        "bytes": 4747367,
+        "sha256": "8b31900fc1922385f2f056ed8fdb9d9c171a1d74cfa9a28fc4dcab17fa08dd08"
+      },
+      {
+        "path": "dst_L237_R474/photometric_cam.pth",
+        "bytes": 16480,
+        "sha256": "5a349566ee394b813b0228fd2f5ce547f352b6961d9a5e09bb357c82136cce3b"
+      },
+      {
+        "path": "dst_L237_R474/photometric_s_model_native_add3.pth",
+        "bytes": 40345735,
+        "sha256": "cba5041e6c0036b0bec44bb38318f8d2d51b1984968f14c2b22df2095eb7e727"
+      },
+      {
+        "path": "dst_L237_R474/photometric_d_model_native_add3.pth",
+        "bytes": 4747367,
+        "sha256": "99371694d0e5fd8306e3208f48e9a67f22581cc66098643058d735f3a4caf64c"
+      },
+      {
+        "path": "dst_L237_R474/dst_L000_R474/photometric_d_model_native_add3.pth",
+        "bytes": 12568551,
+        "sha256": "7cba65e71b6fc0b13816c9cde17a7a5957d363de69c7bc19d62469c7ef7ec0b9"
+      },
+      {
+        "path": "dst_L355_R474/photometric_cam.pth",
+        "bytes": 9824,
+        "sha256": "db858dd1ba0d85119b65d2dc6706d474087b20571f2690ca9f0acb83863ddc45"
+      },
+      {
+        "path": "dst_L355_R474/photometric_s_model_native_add3.pth",
+        "bytes": 40345735,
+        "sha256": "cba5041e6c0036b0bec44bb38318f8d2d51b1984968f14c2b22df2095eb7e727"
+      },
+      {
+        "path": "dst_L355_R474/photometric_d_model_native_add3.pth",
+        "bytes": 2251751,
+        "sha256": "adebc19f90afa931503c01aee20e09f85fe66f6d74f127682c621bf3132a9a6a"
+      },
+      {
+        "path": "dst_L355_R474/dst_L000_R474/photometric_d_model_native_add3.pth",
+        "bytes": 12568551,
+        "sha256": "d868f3b1f268b12681fc6532930991702e3cfc2e5806d621a0ff26c94cbbd206"
+      },
+      {
+        "path": "dst_L355_R474/dst_L237_R474/photometric_d_model_native_add3.pth",
+        "bytes": 4747367,
+        "sha256": "46d6507b8e614c15affdecaf53c84dd83de566f029adb14aee1a8b288f15b720"
+      },
+      {
+        "path": "dst_L000_R117/split_ind.txt",
+        "bytes": 2,
+        "sha256": "6208ef0f7750c111548cf90b6ea1d0d0a66f6bff40dbef07cb45ec436263c7d6"
+      },
+      {
+        "path": "dst_L000_R236/split_ind.txt",
+        "bytes": 3,
+        "sha256": "85daaf6f7055cd5736287faed9603d712920092c4f8fd0097ec3b650bf27530e"
+      },
+      {
+        "path": "dst_L000_R474/split_ind.txt",
+        "bytes": 3,
+        "sha256": "f0bc318fb8965cad8d73d578cd03c63b7987dc6a79b906aada091e1b6a13443f"
+      },
+      {
+        "path": "dst_L118_R236/split_ind.txt",
+        "bytes": 3,
+        "sha256": "8cd2510271575d8430c05368315a87b9c4784c7389a47496080c1e615a2a00b6"
+      },
+      {
+        "path": "dst_L237_R354/split_ind.txt",
+        "bytes": 3,
+        "sha256": "9cfd3c755be26b4e1645918e2a64a26e3d851ede421e0b257f783b443bc443d1"
+      },
+      {
+        "path": "dst_L237_R474/split_ind.txt",
+        "bytes": 3,
+        "sha256": "355d8c0ee4e5698eaed38b96aab64dbf0ad72eca3e352183be6e957e9d9230a7"
+      },
+      {
+        "path": "dst_L355_R474/split_ind.txt",
+        "bytes": 3,
+        "sha256": "8111eb1556229541d7d2720a51203037e78ee57fb2e407e0da4a805473dab7af"
+      }
+    ],
+    "wt/block": [
+      {
+        "path": "dst_L000_R110/photometric_cam.pth",
+        "bytes": 9376,
+        "sha256": "b936edf596af17cc8ca7a8972e8437e003ab325e54801c4e9f47c25f017bf9bd"
+      },
+      {
+        "path": "dst_L000_R110/photometric_s_model_native_add3.pth",
+        "bytes": 31905031,
+        "sha256": "70e0aeab8f0ad3c902027e8c1e61f489b8e73096e61ce928befb55be817512b6"
+      },
+      {
+        "path": "dst_L000_R110/photometric_d_model_native_add3.pth",
+        "bytes": 13105511,
+        "sha256": "b2ef77f1a8d1f3b4736b62a551986549dd2728b88f6b10d72a02f69344163fb9"
+      },
+      {
+        "path": "dst_L000_R110/dst_L000_R222/photometric_d_model_native_add3.pth",
+        "bytes": 26339303,
+        "sha256": "2150cfc58d7b5cfc2f4b85bf37d436e9db3a4238c52b6314c3eb158a07d8e21b"
+      },
+      {
+        "path": "dst_L000_R110/dst_L000_R446/photometric_d_model_native_add3.pth",
+        "bytes": 62980519,
+        "sha256": "a150ef7cc39ee0e3ffeba94fb2f85fac23eaecd3332e5c1791ed9f9d201d2033"
+      },
+      {
+        "path": "dst_L000_R222/photometric_cam.pth",
+        "bytes": 15648,
+        "sha256": "aa03b117690703de3c1213b0d1b50396e9c493ffc03557d605c03b52d7e8b8fd"
+      },
+      {
+        "path": "dst_L000_R222/photometric_s_model_native_add3.pth",
+        "bytes": 31905031,
+        "sha256": "70e0aeab8f0ad3c902027e8c1e61f489b8e73096e61ce928befb55be817512b6"
+      },
+      {
+        "path": "dst_L000_R222/photometric_d_model_native_add3.pth",
+        "bytes": 26339303,
+        "sha256": "022699215238012fb48b0ec31615c22941bdbfbba011c687582dd48cbded6d54"
+      },
+      {
+        "path": "dst_L000_R222/dst_L000_R446/photometric_d_model_native_add3.pth",
+        "bytes": 62980519,
+        "sha256": "c0e6fbe08697755cd89e9638962fc060a88376c1e47d0eacf81d2e224a3092a1"
+      },
+      {
+        "path": "dst_L000_R446/photometric_cam.pth",
+        "bytes": 15648,
+        "sha256": "12e7aa0aa0dcd264791207c824aeb13aef06fee21c956c482c11cb6f7f52afca"
+      },
+      {
+        "path": "dst_L000_R446/photometric_s_model_native_add3.pth",
+        "bytes": 31406599,
+        "sha256": "da6c8094026341ddbca4879530901045473a669476a64a789ef06bc34e97a2a4"
+      },
+      {
+        "path": "dst_L000_R446/photometric_d_model_native_add3.pth",
+        "bytes": 62816743,
+        "sha256": "57237fce9f384c5d9d47fd4dc42068d9910bf1627b47dc27c15a1a901d1bb4d8"
+      },
+      {
+        "path": "dst_L111_R222/photometric_cam.pth",
+        "bytes": 9376,
+        "sha256": "02e6a0e0a968ff0fe726730bb9a254d3959575103b95bdf6308ebbe5b0a2b3c7"
+      },
+      {
+        "path": "dst_L111_R222/photometric_s_model_native_add3.pth",
+        "bytes": 31905031,
+        "sha256": "62a71d6e7337ace1b4409100d3978f9e3616e0e24edc9758669b8d54d5b3dff3"
+      },
+      {
+        "path": "dst_L111_R222/photometric_d_model_native_add3.pth",
+        "bytes": 13339303,
+        "sha256": "f47d33122e65e1d683fe688d052ef1a0d7ef54d70ae748a97ae0d3fbf1ccf988"
+      },
+      {
+        "path": "dst_L111_R222/dst_L000_R222/photometric_d_model_native_add3.pth",
+        "bytes": 26339303,
+        "sha256": "fdb8ba6ff7d1aa7b7eee2d0cea7097ae1a49840870cd5bf6f6d803ba7e2b5894"
+      },
+      {
+        "path": "dst_L111_R222/dst_L000_R446/photometric_d_model_native_add3.pth",
+        "bytes": 62980519,
+        "sha256": "397187a2ad98584ba3cc0d46123ecd32b771892440e2fb36fa8a276545f3cf75"
+      },
+      {
+        "path": "dst_L223_R333/photometric_cam.pth",
+        "bytes": 9504,
+        "sha256": "74d866f5138224b3b57bd47fb25b9c7abef48747e02c841a9fc8cc7bbc0e5fad"
+      },
+      {
+        "path": "dst_L223_R333/photometric_s_model_native_add3.pth",
+        "bytes": 31905031,
+        "sha256": "70e0aeab8f0ad3c902027e8c1e61f489b8e73096e61ce928befb55be817512b6"
+      },
+      {
+        "path": "dst_L223_R333/photometric_d_model_native_add3.pth",
+        "bytes": 13127783,
+        "sha256": "c680bb1a0c366aa6bdc81ed6e5cff9a2312b2a715c980783700f26bf5e7a19ae"
+      },
+      {
+        "path": "dst_L223_R333/dst_L000_R446/photometric_d_model_native_add3.pth",
+        "bytes": 62980519,
+        "sha256": "6a78a0cf20f6fab43bd4b6d3d4ab4bddc5dc166756192f13a6fa773b0a551c09"
+      },
+      {
+        "path": "dst_L223_R333/dst_L223_R446/photometric_d_model_native_add3.pth",
+        "bytes": 26447015,
+        "sha256": "42b5db57a0299d2ec3c5f8d2c71eb706787de6fe5fd44f73213c38c427412c25"
+      },
+      {
+        "path": "dst_L223_R446/photometric_cam.pth",
+        "bytes": 15648,
+        "sha256": "dd0fbb64c22e57d3e82e25bd1d84c34852c015e711e78eb9f97213e899f8d25d"
+      },
+      {
+        "path": "dst_L223_R446/photometric_s_model_native_add3.pth",
+        "bytes": 31905031,
+        "sha256": "62a71d6e7337ace1b4409100d3978f9e3616e0e24edc9758669b8d54d5b3dff3"
+      },
+      {
+        "path": "dst_L223_R446/photometric_d_model_native_add3.pth",
+        "bytes": 26447015,
+        "sha256": "bfd0480d718c17459332e0832b816e0eba1d6681a7b2a2ee1f9b00aaf7166a06"
+      },
+      {
+        "path": "dst_L223_R446/dst_L000_R446/photometric_d_model_native_add3.pth",
+        "bytes": 62980519,
+        "sha256": "a343547cb530b8fda77f124a24adfd16877238a1f7376827fb9f26248306573e"
+      },
+      {
+        "path": "dst_L334_R446/photometric_cam.pth",
+        "bytes": 9504,
+        "sha256": "12236be7848cf8bc26d5abf94c7d5f80675791b5fd44178b9cb4cc544227d426"
+      },
+      {
+        "path": "dst_L334_R446/photometric_s_model_native_add3.pth",
+        "bytes": 31905031,
+        "sha256": "62a71d6e7337ace1b4409100d3978f9e3616e0e24edc9758669b8d54d5b3dff3"
+      },
+      {
+        "path": "dst_L334_R446/photometric_d_model_native_add3.pth",
+        "bytes": 13446951,
+        "sha256": "50366dd6175d1884ed5b108d69a9e593373b3fbbc25a473aa2d261685ce8b55d"
+      },
+      {
+        "path": "dst_L334_R446/dst_L000_R446/photometric_d_model_native_add3.pth",
+        "bytes": 62980519,
+        "sha256": "304d7cd83b7b506b18cf1768c0a46a9c038a3644307c2e8c20171e7219a276ec"
+      },
+      {
+        "path": "dst_L334_R446/dst_L223_R446/photometric_d_model_native_add3.pth",
+        "bytes": 26447015,
+        "sha256": "1f3d672c9c03c77a91d4f0a9b9c464718e86711ee08f07ac656854749e2d7678"
+      },
+      {
+        "path": "dst_L000_R110/split_ind.txt",
+        "bytes": 2,
+        "sha256": "02d20bbd7e394ad5999a4cebabac9619732c343a4cac99470c03e23ba2bdc2bc"
+      },
+      {
+        "path": "dst_L000_R222/split_ind.txt",
+        "bytes": 3,
+        "sha256": "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae"
+      },
+      {
+        "path": "dst_L000_R446/split_ind.txt",
+        "bytes": 3,
+        "sha256": "56f4da26ed956730309fa1488611ee0f13b0ac95ebb1bc9b5d210e31ff70e79c"
+      },
+      {
+        "path": "dst_L111_R222/split_ind.txt",
+        "bytes": 3,
+        "sha256": "e0f05da93a0f5a86a3be5fc0e301606513c9f7e59dac2357348aa0f2f47db984"
+      },
+      {
+        "path": "dst_L223_R333/split_ind.txt",
+        "bytes": 3,
+        "sha256": "ee62de25ccc2b55d3a0495244b246fb97055b6f1c2697d837b8e94976c03756f"
+      },
+      {
+        "path": "dst_L223_R446/split_ind.txt",
+        "bytes": 3,
+        "sha256": "058d5d43bf485bf78dda1ed4eaf8b78e3106f3c6364c625ead2cc3aeb1908237"
+      },
+      {
+        "path": "dst_L334_R446/split_ind.txt",
+        "bytes": 3,
+        "sha256": "48a1a756f2d83f1dc57bbf14052b70a6f40d0fceed6662812e34903a9fe90924"
+      }
+    ],
+    "wt/paper-windmill": [
+      {
+        "path": "dst_L000_R067/photometric_cam.pth",
+        "bytes": 7008,
+        "sha256": "48e8a178f45ef1c86dbd45fbd952281200b3d65b0000758d15308fa5833b114b"
+      },
+      {
+        "path": "dst_L000_R067/photometric_s_model_native_add3.pth",
+        "bytes": 71619847,
+        "sha256": "f8f034ea5b3074f8de8b8f547691c0c2d65ae7e95c96523d805f101c3eb9ffcf"
+      },
+      {
+        "path": "dst_L000_R067/photometric_d_model_native_add3.pth",
+        "bytes": 2096295,
+        "sha256": "ffbe595a910704ec8f4ddfbc4aab3e2b2af03c8e295df87c8212de0c592a1d7d"
+      },
+      {
+        "path": "dst_L000_R067/dst_L000_R137/photometric_d_model_native_add3.pth",
+        "bytes": 4166247,
+        "sha256": "7e17848b9b070b9df919acaa7420036e342cf09166648dd851ebabcab6a99a3d"
+      },
+      {
+        "path": "dst_L000_R067/dst_L000_R276/photometric_d_model_native_add3.pth",
+        "bytes": 7947303,
+        "sha256": "c6d1635ba26e85052c7d3943a185c834c8932970f12d8339f8752596581e7d9e"
+      },
+      {
+        "path": "dst_L000_R137/photometric_cam.pth",
+        "bytes": 10976,
+        "sha256": "0ce0e78588df50cfb0ab00dec78d9d493a3daf3187bbbe8e699d4a264fd50ada"
+      },
+      {
+        "path": "dst_L000_R137/photometric_s_model_native_add3.pth",
+        "bytes": 71619847,
+        "sha256": "f8f034ea5b3074f8de8b8f547691c0c2d65ae7e95c96523d805f101c3eb9ffcf"
+      },
+      {
+        "path": "dst_L000_R137/photometric_d_model_native_add3.pth",
+        "bytes": 4166247,
+        "sha256": "3530fa715d089f2c9d8c4f99cbd22a35366bdae6323c8695c3288fc187968f21"
+      },
+      {
+        "path": "dst_L000_R137/dst_L000_R276/photometric_d_model_native_add3.pth",
+        "bytes": 7947303,
+        "sha256": "88591c983f7a3ba75bef65acc533268019be1d9fc819b4db9ade7b3ee067e84e"
+      },
+      {
+        "path": "dst_L000_R276/photometric_cam.pth",
+        "bytes": 10976,
+        "sha256": "784285a57bc36039dbfb6f8c076ccbed77b46aff52bc22a928799348fc9df874"
+      },
+      {
+        "path": "dst_L000_R276/photometric_s_model_native_add3.pth",
+        "bytes": 70500871,
+        "sha256": "ef7194c0959326393bba8503062b86941d6c601f7f8c2086b0898b49965b2ca9"
+      },
+      {
+        "path": "dst_L000_R276/photometric_d_model_native_add3.pth",
+        "bytes": 7917543,
+        "sha256": "925c764241214f28743a807d6150a09441d79a4a964bf379c196a8cef2e8d0cd"
+      },
+      {
+        "path": "dst_L068_R137/photometric_cam.pth",
+        "bytes": 7008,
+        "sha256": "e279cf1d26391bb7e24023649fc4ba281f6207fe1825d6a2625e58ee12aa7d10"
+      },
+      {
+        "path": "dst_L068_R137/photometric_s_model_native_add3.pth",
+        "bytes": 71619847,
+        "sha256": "88f08ea87320e1a05c85b3dcbb244d72d9e463e1c95ff4613eaedef339b56093"
+      },
+      {
+        "path": "dst_L068_R137/photometric_d_model_native_add3.pth",
+        "bytes": 2134119,
+        "sha256": "da8553d42c1976335ef803380d9da52dc7cca09fca5a6aea0ba47923aab35d89"
+      },
+      {
+        "path": "dst_L068_R137/dst_L000_R137/photometric_d_model_native_add3.pth",
+        "bytes": 4166247,
+        "sha256": "6bfe8177db9d96530f7bec65a2fe21dbcbcbc9a0494547dd27a20879d999e4f0"
+      },
+      {
+        "path": "dst_L068_R137/dst_L000_R276/photometric_d_model_native_add3.pth",
+        "bytes": 7947303,
+        "sha256": "fe1f73ccd692d4410329562959fb213647ec20719d79fd2eb99b2c0b77d9255f"
+      },
+      {
+        "path": "dst_L138_R206/photometric_cam.pth",
+        "bytes": 7072,
+        "sha256": "a835e84e4e4bc4144fe205b228cce7e8463045098d7606f4cdbcb2b7d4ac6f7b"
+      },
+      {
+        "path": "dst_L138_R206/photometric_s_model_native_add3.pth",
+        "bytes": 71619847,
+        "sha256": "f8f034ea5b3074f8de8b8f547691c0c2d65ae7e95c96523d805f101c3eb9ffcf"
+      },
+      {
+        "path": "dst_L138_R206/photometric_d_model_native_add3.pth",
+        "bytes": 1979815,
+        "sha256": "fafa4a0da5ac1a28d4d50ffdbdcd8d7efb99930eb4f6653b63d0126e4f2d9113"
+      },
+      {
+        "path": "dst_L138_R206/dst_L000_R276/photometric_d_model_native_add3.pth",
+        "bytes": 7947303,
+        "sha256": "e00f40367751ee42e2592d15fc411ca536591b63fde80254dab0b57c6262880f"
+      },
+      {
+        "path": "dst_L138_R206/dst_L138_R276/photometric_d_model_native_add3.pth",
+        "bytes": 3895271,
+        "sha256": "941336f2dcd8864aff3f5bff35720390338e5bfaa9622805a1fa3f2d744990e5"
+      },
+      {
+        "path": "dst_L138_R276/photometric_cam.pth",
+        "bytes": 10976,
+        "sha256": "d00082ee4b50dc0094c6a38c76c55b48273259ad51d95899af3c0e7045fb81e0"
+      },
+      {
+        "path": "dst_L138_R276/photometric_s_model_native_add3.pth",
+        "bytes": 71619847,
+        "sha256": "88f08ea87320e1a05c85b3dcbb244d72d9e463e1c95ff4613eaedef339b56093"
+      },
+      {
+        "path": "dst_L138_R276/photometric_d_model_native_add3.pth",
+        "bytes": 3895271,
+        "sha256": "56e0513b8269b20415e369afabfa0a7bb5288b0530c2bc1da8b2b893a551ec29"
+      },
+      {
+        "path": "dst_L138_R276/dst_L000_R276/photometric_d_model_native_add3.pth",
+        "bytes": 7947303,
+        "sha256": "52aae2db0916a6ae938fc9c4185cc79410d451ef6160f7c2e81fc450c56ccaa2"
+      },
+      {
+        "path": "dst_L207_R276/photometric_cam.pth",
+        "bytes": 7072,
+        "sha256": "442cc826addff126ab8eee7ffddf5ffac4ffd7824684b71590da3d93f9928fcb"
+      },
+      {
+        "path": "dst_L207_R276/photometric_s_model_native_add3.pth",
+        "bytes": 71619847,
+        "sha256": "88f08ea87320e1a05c85b3dcbb244d72d9e463e1c95ff4613eaedef339b56093"
+      },
+      {
+        "path": "dst_L207_R276/photometric_d_model_native_add3.pth",
+        "bytes": 2029095,
+        "sha256": "e21341184867681bffbf4f472eb3a83d9a3f9e22505ae91e59038ecea74a9c16"
+      },
+      {
+        "path": "dst_L207_R276/dst_L000_R276/photometric_d_model_native_add3.pth",
+        "bytes": 7947303,
+        "sha256": "8cac4445e64eb9c38eaff349790f1165e27210d62ea864612a63ccb3d755bfde"
+      },
+      {
+        "path": "dst_L207_R276/dst_L138_R276/photometric_d_model_native_add3.pth",
+        "bytes": 3895271,
+        "sha256": "260a8e4fc66bf7421993cee1b716feee835a1e5f667084022cbf0d115f3617fb"
+      },
+      {
+        "path": "dst_L000_R067/split_ind.txt",
+        "bytes": 2,
+        "sha256": "c6f3ac57944a531490cd39902d0f777715fd005efac9a30622d5f5205e7f6894"
+      },
+      {
+        "path": "dst_L000_R137/split_ind.txt",
+        "bytes": 2,
+        "sha256": "a21855da08cb102d1d217c53dc5824a3a795c1c1a44e971bf01ab9da3a2acbbf"
+      },
+      {
+        "path": "dst_L000_R276/split_ind.txt",
+        "bytes": 3,
+        "sha256": "d6a4031733610bb080d0bfa794fcc9dbdcff74834aeaab7c6b927e21e9754037"
+      },
+      {
+        "path": "dst_L068_R137/split_ind.txt",
+        "bytes": 3,
+        "sha256": "37834f2f25762f23e1f74a531cbe445db73d6765ebe60878a7dfbecd7d4af6e1"
+      },
+      {
+        "path": "dst_L138_R206/split_ind.txt",
+        "bytes": 3,
+        "sha256": "68519a9eca55c68c72658a2a1716aac3788c289859d46d6f5c3f14760fa37c9e"
+      },
+      {
+        "path": "dst_L138_R276/split_ind.txt",
+        "bytes": 3,
+        "sha256": "968076be2e38cf897d4d6cea3faca9c037e1a4e3b4b7744fb2533e07751bd30a"
+      },
+      {
+        "path": "dst_L207_R276/split_ind.txt",
+        "bytes": 3,
+        "sha256": "749fc650cacb0f06547520d53c31505c8156e0a3be07073eddb2ef3ad9e383ba"
+      }
+    ],
+    "wt/space-out": [
+      {
+        "path": "dst_L000_R105/photometric_cam.pth",
+        "bytes": 9184,
+        "sha256": "e27052b97ef2b44cc574f8f12594e94171e4b6c4da162e2f4622553c128f99e7"
+      },
+      {
+        "path": "dst_L000_R105/photometric_s_model_native_add3.pth",
+        "bytes": 26059911,
+        "sha256": "7b59b3bd3cd5337189e4483583c66f3d1617fc4c1eed2698ade2a1f5de636d5b"
+      },
+      {
+        "path": "dst_L000_R105/photometric_d_model_native_add3.pth",
+        "bytes": 21422567,
+        "sha256": "3c2864e1ba59e26643465cea52f9cfbbdbad020124433329c275d9ff18b7a86d"
+      },
+      {
+        "path": "dst_L000_R105/dst_L000_R213/photometric_d_model_native_add3.pth",
+        "bytes": 42574631,
+        "sha256": "1cb300eff5b118184f0278cb3fbdbafef442c7125925e593d37681c0f7f87b9b"
+      },
+      {
+        "path": "dst_L000_R105/dst_L000_R428/photometric_d_model_native_add3.pth",
+        "bytes": 91131047,
+        "sha256": "f8f3b7d1860517538af6e646005cc5f0c3910676af783f70e8b39d2b51979dc2"
+      },
+      {
+        "path": "dst_L000_R213/photometric_cam.pth",
+        "bytes": 15200,
+        "sha256": "df83a1cb06ac59669b46289f457f2021482b933d0d27768db29b2013c24c5756"
+      },
+      {
+        "path": "dst_L000_R213/photometric_s_model_native_add3.pth",
+        "bytes": 26059911,
+        "sha256": "7b59b3bd3cd5337189e4483583c66f3d1617fc4c1eed2698ade2a1f5de636d5b"
+      },
+      {
+        "path": "dst_L000_R213/photometric_d_model_native_add3.pth",
+        "bytes": 42574631,
+        "sha256": "e856efb85578399e2beeefd22c999226602f84c7e5bc48871a7136a3e3d30784"
+      },
+      {
+        "path": "dst_L000_R213/dst_L000_R428/photometric_d_model_native_add3.pth",
+        "bytes": 91131047,
+        "sha256": "00edd3b93302f18e3287ec2c17766192feaae7a6bbcf98e93dba03d0dac017cf"
+      },
+      {
+        "path": "dst_L000_R428/photometric_cam.pth",
+        "bytes": 15200,
+        "sha256": "3373919f9fe4eb6c7ac2d8dd0f675da449afee8d25cd7e9c824d1e48e6d57328"
+      },
+      {
+        "path": "dst_L000_R428/photometric_s_model_native_add3.pth",
+        "bytes": 25652807,
+        "sha256": "388bcf837ec6136f44f6dbae898342aadcfe8749b0ea06668aaad4aa72d89ee9"
+      },
+      {
+        "path": "dst_L000_R428/photometric_d_model_native_add3.pth",
+        "bytes": 91013095,
+        "sha256": "ef4b746f92ca5706583bd42faefa5792a26ac43157fa20832963a77d20ee8e83"
+      },
+      {
+        "path": "dst_L106_R213/photometric_cam.pth",
+        "bytes": 9184,
+        "sha256": "d07de5421f264c52b44d475a5ca7a182f1d2330fe171e0e4910787d0d3d4b52b"
+      },
+      {
+        "path": "dst_L106_R213/photometric_s_model_native_add3.pth",
+        "bytes": 26059911,
+        "sha256": "1677d395e9f2bdcb11ef769cd896e054c2c57a1c8aacae02c82197f4852c7287"
+      },
+      {
+        "path": "dst_L106_R213/photometric_d_model_native_add3.pth",
+        "bytes": 21794983,
+        "sha256": "e56c954c97abec0bd4cc3c917f0d2726057a87742d141ddda904ec24184bafff"
+      },
+      {
+        "path": "dst_L106_R213/dst_L000_R213/photometric_d_model_native_add3.pth",
+        "bytes": 42574631,
+        "sha256": "55e3de02c310090cf5275a9c374f1b15bea8d630fba1f388df086a5a8c178b38"
+      },
+      {
+        "path": "dst_L106_R213/dst_L000_R428/photometric_d_model_native_add3.pth",
+        "bytes": 91131047,
+        "sha256": "6a6b5253fb32e01f127e1593f8c68f5da2cf633e8f43f65aa82504f1322f9ca2"
+      },
+      {
+        "path": "dst_L214_R320/photometric_cam.pth",
+        "bytes": 9184,
+        "sha256": "91fcb8efb47609e697679d876e20d27a37cdb2952d56e08967a69ee608173f77"
+      },
+      {
+        "path": "dst_L214_R320/photometric_s_model_native_add3.pth",
+        "bytes": 26059911,
+        "sha256": "7b59b3bd3cd5337189e4483583c66f3d1617fc4c1eed2698ade2a1f5de636d5b"
+      },
+      {
+        "path": "dst_L214_R320/photometric_d_model_native_add3.pth",
+        "bytes": 21608743,
+        "sha256": "2d3db54c6f88839845663bb7cb9ac379cd655f9e1087baa8b3178cc1fee534d8"
+      },
+      {
+        "path": "dst_L214_R320/dst_L000_R428/photometric_d_model_native_add3.pth",
+        "bytes": 91131047,
+        "sha256": "f2c23b0b950cd702b30342518d4984a01f1041c26b434407b083effb4a42271d"
+      },
+      {
+        "path": "dst_L214_R320/dst_L214_R428/photometric_d_model_native_add3.pth",
+        "bytes": 42760807,
+        "sha256": "10da36ddc8d65c8ed7427e1a041ce23b6511420cca40a2f7a7afb30d9936e308"
+      },
+      {
+        "path": "dst_L214_R428/photometric_cam.pth",
+        "bytes": 15200,
+        "sha256": "d69da28ae9836422203f1314d79a1e9d73ba83fef9e918367649067953663c77"
+      },
+      {
+        "path": "dst_L214_R428/photometric_s_model_native_add3.pth",
+        "bytes": 26059911,
+        "sha256": "1677d395e9f2bdcb11ef769cd896e054c2c57a1c8aacae02c82197f4852c7287"
+      },
+      {
+        "path": "dst_L214_R428/photometric_d_model_native_add3.pth",
+        "bytes": 42760807,
+        "sha256": "0a3674f848e6beb988bdeab8057b915ec3b6c2bd670778a13abb696ceda98177"
+      },
+      {
+        "path": "dst_L214_R428/dst_L000_R428/photometric_d_model_native_add3.pth",
+        "bytes": 91131047,
+        "sha256": "e48f3ccaad07b241d5ee87b4b8681346ec9d2c70073fe5632985289d8de772ae"
+      },
+      {
+        "path": "dst_L321_R428/photometric_cam.pth",
+        "bytes": 9184,
+        "sha256": "8d25a940264ab7f289cc27bdad854965f8213c956fbf722ebedc514b63183c4a"
+      },
+      {
+        "path": "dst_L321_R428/photometric_s_model_native_add3.pth",
+        "bytes": 26059911,
+        "sha256": "1677d395e9f2bdcb11ef769cd896e054c2c57a1c8aacae02c82197f4852c7287"
+      },
+      {
+        "path": "dst_L321_R428/photometric_d_model_native_add3.pth",
+        "bytes": 21794983,
+        "sha256": "f9c85c084339b133f94c6f89f3c7927f703b241a3f41defd7cef70df8bfc0f44"
+      },
+      {
+        "path": "dst_L321_R428/dst_L000_R428/photometric_d_model_native_add3.pth",
+        "bytes": 91131047,
+        "sha256": "66a4b40ee4c0eb2a615fe2136b0100c977d892c34f60e5dd5ed51c206f41197a"
+      },
+      {
+        "path": "dst_L321_R428/dst_L214_R428/photometric_d_model_native_add3.pth",
+        "bytes": 42760807,
+        "sha256": "6e58918d950f65d53c0967f7fffed09e6808e4ac95cba33bc39dc1766a7dfe94"
+      },
+      {
+        "path": "dst_L000_R105/split_ind.txt",
+        "bytes": 2,
+        "sha256": "41cfc0d1f2d127b04555b7246d84019b4d27710a3f3aff6e7764375b1e06e05d"
+      },
+      {
+        "path": "dst_L000_R213/split_ind.txt",
+        "bytes": 3,
+        "sha256": "482d9673cfee5de391f97fde4d1c84f9f8d6f2cf0784fcffb958b4032de7236c"
+      },
+      {
+        "path": "dst_L000_R428/split_ind.txt",
+        "bytes": 3,
+        "sha256": "802b906a18591ead8a6dd809b262ace4c65c16e89764c40ae326cfcff811e10c"
+      },
+      {
+        "path": "dst_L106_R213/split_ind.txt",
+        "bytes": 3,
+        "sha256": "ff2ccb6ba423d356bd549ed4bfb76e96976a0dcde05a09996a1cdb9f83422ec4"
+      },
+      {
+        "path": "dst_L214_R320/split_ind.txt",
+        "bytes": 3,
+        "sha256": "8acc23987b8960d83c44541f9f0eb46454cea080ea94d916f56fccf033db866f"
+      },
+      {
+        "path": "dst_L214_R428/split_ind.txt",
+        "bytes": 3,
+        "sha256": "8d23cf6c86e834a7aa6eded54c26ce2bb2e74903538c61bdd5d2197997ab2f72"
+      },
+      {
+        "path": "dst_L321_R428/split_ind.txt",
+        "bytes": 3,
+        "sha256": "01299ac65733b5a3d774265fbfe8396b8611e5e3321855dbc541cd301e71fe5e"
+      }
+    ],
+    "wt/spin": [
+      {
+        "path": "dst_L000_R104/photometric_cam.pth",
+        "bytes": 9120,
+        "sha256": "6d8f29e55f3050be9da946bb8ba52ab29451677b7567dfe1230568ae7175aa46"
+      },
+      {
+        "path": "dst_L000_R104/photometric_s_model_native_add3.pth",
+        "bytes": 32425095,
+        "sha256": "fd5ee94c55f9e66f929548b46918194c312af943e325893fafc7f8a72ae646ca"
+      },
+      {
+        "path": "dst_L000_R104/photometric_d_model_native_add3.pth",
+        "bytes": 21351463,
+        "sha256": "13271b7503fb0acd571d14c618541590d2f97afc8692f25ceee0d2f130a98375"
+      },
+      {
+        "path": "dst_L000_R104/dst_L000_R211/photometric_d_model_native_add3.pth",
+        "bytes": 42428967,
+        "sha256": "19657ea1c3842205b1dcb65abe9aab2815e8db8d67bf9bb7c895e81062d44035"
+      },
+      {
+        "path": "dst_L000_R104/dst_L000_R425/photometric_d_model_native_add3.pth",
+        "bytes": 90423335,
+        "sha256": "99eaa2a6689abd35d759ac094223a8d60a440f732bd2ae3300dc3c186201112e"
+      },
+      {
+        "path": "dst_L000_R211/photometric_cam.pth",
+        "bytes": 15072,
+        "sha256": "586efa6769e22c46ed701e6381868cf50c3550dbe4a712a85ee62e12fd78a527"
+      },
+      {
+        "path": "dst_L000_R211/photometric_s_model_native_add3.pth",
+        "bytes": 32425095,
+        "sha256": "fd5ee94c55f9e66f929548b46918194c312af943e325893fafc7f8a72ae646ca"
+      },
+      {
+        "path": "dst_L000_R211/photometric_d_model_native_add3.pth",
+        "bytes": 42428967,
+        "sha256": "cf8355c4d950141476bcfa90b2fe79a11f218b3c2e56f98740ecd5d8eb16227e"
+      },
+      {
+        "path": "dst_L000_R211/dst_L000_R425/photometric_d_model_native_add3.pth",
+        "bytes": 90423335,
+        "sha256": "ec81b9585e28b7da079a3b08ecb5d48d46984ac913568557460b33b8f08c62a2"
+      },
+      {
+        "path": "dst_L000_R425/photometric_cam.pth",
+        "bytes": 15072,
+        "sha256": "70741a5a6c32c62c050e137b85173175b61c7ada8b7306c3a5071b02217df3e8"
+      },
+      {
+        "path": "dst_L000_R425/photometric_s_model_native_add3.pth",
+        "bytes": 31918535,
+        "sha256": "32ee26118c6919df410ea7a9d1354c65618c7aa3a4b4d1981ca519b9a79b3a05"
+      },
+      {
+        "path": "dst_L000_R425/photometric_d_model_native_add3.pth",
+        "bytes": 90312231,
+        "sha256": "7d334d1e93c0d045a611a5fbba1276756980028ad5b8c22dcaea70d4c66bcae3"
+      },
+      {
+        "path": "dst_L105_R211/photometric_cam.pth",
+        "bytes": 9120,
+        "sha256": "de4bfffba19c806f91d36a38cc6265846a9381dba090a9d89c14d4d9aa5f8c2b"
+      },
+      {
+        "path": "dst_L105_R211/photometric_s_model_native_add3.pth",
+        "bytes": 32425095,
+        "sha256": "29e0c1a3a2bdbc13f016724931843c08c9f046b4c38f3678c32a3580000b67cc"
+      },
+      {
+        "path": "dst_L105_R211/photometric_d_model_native_add3.pth",
+        "bytes": 21725927,
+        "sha256": "98d69eb4d47b7ae8cfdb2b770634627dc026cdb6b92574c10d454b07209e5272"
+      },
+      {
+        "path": "dst_L105_R211/dst_L000_R211/photometric_d_model_native_add3.pth",
+        "bytes": 42428967,
+        "sha256": "e367d3ef6064fbd5971f329f298e0d267ea73f0b004e427dd46835aeab81c394"
+      },
+      {
+        "path": "dst_L105_R211/dst_L000_R425/photometric_d_model_native_add3.pth",
+        "bytes": 90423335,
+        "sha256": "336148f0c557cb44eaa505dcd67bcf8df5a332acc210e2cbf3ae9a8d9293574a"
+      },
+      {
+        "path": "dst_L212_R317/photometric_cam.pth",
+        "bytes": 9184,
+        "sha256": "d37e8d2ea0901503c6a28f29ce585e82d02c10fc605a8de58aa257f323c29306"
+      },
+      {
+        "path": "dst_L212_R317/photometric_s_model_native_add3.pth",
+        "bytes": 32425095,
+        "sha256": "fd5ee94c55f9e66f929548b46918194c312af943e325893fafc7f8a72ae646ca"
+      },
+      {
+        "path": "dst_L212_R317/photometric_d_model_native_add3.pth",
+        "bytes": 21538727,
+        "sha256": "9998be141f8bd71d1c26c67d78686c8495a338a0dfad0f39b67daab152cda7d4"
+      },
+      {
+        "path": "dst_L212_R317/dst_L000_R425/photometric_d_model_native_add3.pth",
+        "bytes": 90423335,
+        "sha256": "03c8c7abb7be4bc7922a5d24fc6f7bd65d8fed2c3622bb8630741fc0ec8d4933"
+      },
+      {
+        "path": "dst_L212_R317/dst_L212_R425/photometric_d_model_native_add3.pth",
+        "bytes": 42803495,
+        "sha256": "412d5118f2356e767b496e831f53fabf93b19331f3c4d4e19d88e1c503c884e7"
+      },
+      {
+        "path": "dst_L212_R425/photometric_cam.pth",
+        "bytes": 15072,
+        "sha256": "f6e6615827d89e4bfaac19249c2349836b52e59950778ec2d873e20f5a3829ac"
+      },
+      {
+        "path": "dst_L212_R425/photometric_s_model_native_add3.pth",
+        "bytes": 32425095,
+        "sha256": "29e0c1a3a2bdbc13f016724931843c08c9f046b4c38f3678c32a3580000b67cc"
+      },
+      {
+        "path": "dst_L212_R425/photometric_d_model_native_add3.pth",
+        "bytes": 42803495,
+        "sha256": "94d531c26599072792e47eaabe52c4da9539b884ccf1be3d9c7869a600c6e229"
+      },
+      {
+        "path": "dst_L212_R425/dst_L000_R425/photometric_d_model_native_add3.pth",
+        "bytes": 90423335,
+        "sha256": "d9fd21402fcca2580ebfbdd8202bb2b9d28bddfb63933dcc43a42dec65ce91af"
+      },
+      {
+        "path": "dst_L318_R425/photometric_cam.pth",
+        "bytes": 9184,
+        "sha256": "4c26e99ffdc677b30ac3d22e3ec7cf0e708f8a700671c3146a5958d5fd04954e"
+      },
+      {
+        "path": "dst_L318_R425/photometric_s_model_native_add3.pth",
+        "bytes": 32425095,
+        "sha256": "29e0c1a3a2bdbc13f016724931843c08c9f046b4c38f3678c32a3580000b67cc"
+      },
+      {
+        "path": "dst_L318_R425/photometric_d_model_native_add3.pth",
+        "bytes": 21913127,
+        "sha256": "f6f07c887fbc5f04b1e0be96003560848ba1328459f3b85a91b11fd783ddbea3"
+      },
+      {
+        "path": "dst_L318_R425/dst_L000_R425/photometric_d_model_native_add3.pth",
+        "bytes": 90423335,
+        "sha256": "91e07dd0ba9335e0e6467e61fd27f8ec727fa4e60ee47fba0481d8e5205b58ad"
+      },
+      {
+        "path": "dst_L318_R425/dst_L212_R425/photometric_d_model_native_add3.pth",
+        "bytes": 42803495,
+        "sha256": "26536c5f38e1be6002cb1c39582f2fa95074f9abf0b6665429140d9256ccea74"
+      },
+      {
+        "path": "dst_L000_R104/split_ind.txt",
+        "bytes": 2,
+        "sha256": "41cfc0d1f2d127b04555b7246d84019b4d27710a3f3aff6e7764375b1e06e05d"
+      },
+      {
+        "path": "dst_L000_R211/split_ind.txt",
+        "bytes": 3,
+        "sha256": "1253e9373e781b7500266caa55150e08e210bc8cd8cc70d89985e3600155e860"
+      },
+      {
+        "path": "dst_L000_R425/split_ind.txt",
+        "bytes": 3,
+        "sha256": "fa2b7af0a811b9acde602aacb78e3638e8506dfead5fe6c3425b10b526f94bdd"
+      },
+      {
+        "path": "dst_L105_R211/split_ind.txt",
+        "bytes": 3,
+        "sha256": "7ed8f0f3b707956d9fb1e889e11153e0aa0a854983081d262fbe5eede32da7ca"
+      },
+      {
+        "path": "dst_L212_R317/split_ind.txt",
+        "bytes": 3,
+        "sha256": "bba58959c32abe688d9cb5222b97de973002a67c412d6a8c8d2a79ac692f32b7"
+      },
+      {
+        "path": "dst_L212_R425/split_ind.txt",
+        "bytes": 3,
+        "sha256": "aae02129362d611717b6c00ad8d73bf820a0f6d88fca8e515cafe78d3a335965"
+      },
+      {
+        "path": "dst_L318_R425/split_ind.txt",
+        "bytes": 3,
+        "sha256": "9b15fed64ef16980f625aeed46ab4cd2c498690551d3a2d1e5254d551d7d6ddf"
+      }
+    ],
+    "wt/teddy": [
+      {
+        "path": "dst_L000_R116/photometric_cam.pth",
+        "bytes": 9760,
+        "sha256": "dbbdc01f23fcdb6f8f2910d3c32d9497bed4c97b34cab99b8f63c50c75639558"
+      },
+      {
+        "path": "dst_L000_R116/photometric_s_model_native_add3.pth",
+        "bytes": 28838983,
+        "sha256": "ba693c951b33beda75497d06e3e71b1723d29837acde4539477a9535d3267d23"
+      },
+      {
+        "path": "dst_L000_R116/photometric_d_model_native_add3.pth",
+        "bytes": 6252647,
+        "sha256": "15a428ae3f434e0982b500f4863f211667a26650ee7671dff0e2fabf4e1002a8"
+      },
+      {
+        "path": "dst_L000_R116/dst_L000_R234/photometric_d_model_native_add3.pth",
+        "bytes": 12645927,
+        "sha256": "fbd6c0955b1d491e0f1ccc0b693dcd7e16e409ca66af8f1c842f6fe5ea6b2c43"
+      },
+      {
+        "path": "dst_L000_R116/dst_L000_R471/photometric_d_model_native_add3.pth",
+        "bytes": 34492903,
+        "sha256": "960c163c5a0bf33a955a4bfae4e68ffa1fbd2a233f460c0a865c68b23b839a9f"
+      },
+      {
+        "path": "dst_L000_R234/photometric_cam.pth",
+        "bytes": 16416,
+        "sha256": "99408c4a4ec2a6273ca47d3e3348c47658363363b09bc828c62baedfcf38ce01"
+      },
+      {
+        "path": "dst_L000_R234/photometric_s_model_native_add3.pth",
+        "bytes": 28838983,
+        "sha256": "ba693c951b33beda75497d06e3e71b1723d29837acde4539477a9535d3267d23"
+      },
+      {
+        "path": "dst_L000_R234/photometric_d_model_native_add3.pth",
+        "bytes": 12645927,
+        "sha256": "f9ed4af6eea5677f08cd3cc0ab506a7c0fa74243b7299e70d9f2424de2a5d5f8"
+      },
+      {
+        "path": "dst_L000_R234/dst_L000_R471/photometric_d_model_native_add3.pth",
+        "bytes": 34492903,
+        "sha256": "6b423fd7e469a9f468fa67a7dc7359b02d2e45a7d6cd80563145aa59a4955e76"
+      },
+      {
+        "path": "dst_L000_R471/photometric_cam.pth",
+        "bytes": 16416,
+        "sha256": "5ac1b94e27ed989b445c672389866cef60f56cbff38fdb9402d8bac03e2f4de8"
+      },
+      {
+        "path": "dst_L000_R471/photometric_s_model_native_add3.pth",
+        "bytes": 28388423,
+        "sha256": "a643505a65c81bd4bcb6f8e7ca91f1453c7f845da4e49d357d4b3466288a5db6"
+      },
+      {
+        "path": "dst_L000_R471/photometric_d_model_native_add3.pth",
+        "bytes": 34345255,
+        "sha256": "f6db346a2388f9304bf0816e7b32d80ebc15d2aed409314d27843af8974612d9"
+      },
+      {
+        "path": "dst_L117_R234/photometric_cam.pth",
+        "bytes": 9760,
+        "sha256": "95440d1f13ec9b5915b67cff144897c829a7fd1da8b82f6158ffbea8caf2af89"
+      },
+      {
+        "path": "dst_L117_R234/photometric_s_model_native_add3.pth",
+        "bytes": 28838983,
+        "sha256": "8da59907264fb54e6eacc61cebab45e7d927c533d9620772d27495dc16914a90"
+      },
+      {
+        "path": "dst_L117_R234/photometric_d_model_native_add3.pth",
+        "bytes": 6298023,
+        "sha256": "d62609b69bb423b89a12f03f99dbf32fab31cf1669f7c59ac430fc6b6a620ce9"
+      },
+      {
+        "path": "dst_L117_R234/dst_L000_R234/photometric_d_model_native_add3.pth",
+        "bytes": 12645927,
+        "sha256": "dd1ef8a49a7b4414b8c53fef800240502f5492652179e8b69c706bfbbe0adb26"
+      },
+      {
+        "path": "dst_L117_R234/dst_L000_R471/photometric_d_model_native_add3.pth",
+        "bytes": 34492903,
+        "sha256": "a004407b4816b5156783a527eb1e85cf39daeeae2c946493e9f6e8e7278d81bc"
+      },
+      {
+        "path": "dst_L235_R352/photometric_cam.pth",
+        "bytes": 9824,
+        "sha256": "19de4ab4c431bc38b9f0b4c8dee4964eefd5bddce8db4c56e966e27c7635a5b3"
+      },
+      {
+        "path": "dst_L235_R352/photometric_s_model_native_add3.pth",
+        "bytes": 28838983,
+        "sha256": "ba693c951b33beda75497d06e3e71b1723d29837acde4539477a9535d3267d23"
+      },
+      {
+        "path": "dst_L235_R352/photometric_d_model_native_add3.pth",
+        "bytes": 6298023,
+        "sha256": "7736fd0381b9c301c989ccb7aaab8de7fd8939ce9bc9aef2a897e8ec820e44bd"
+      },
+      {
+        "path": "dst_L235_R352/dst_L000_R471/photometric_d_model_native_add3.pth",
+        "bytes": 34492903,
+        "sha256": "f2bf687ea3a19c0e0b2fea5546735f639ae84c15e6e6fad25565c8703f24065b"
+      },
+      {
+        "path": "dst_L235_R352/dst_L235_R471/photometric_d_model_native_add3.pth",
+        "bytes": 12736615,
+        "sha256": "a7db88123006787fb7ccc634cd6529ea339d07e57458cf8db9f3a840568b6f24"
+      },
+      {
+        "path": "dst_L235_R471/photometric_cam.pth",
+        "bytes": 16416,
+        "sha256": "abaa2d8dde3cd56474aa1bee93fa7b19329318feee5f3873306dadf101716d70"
+      },
+      {
+        "path": "dst_L235_R471/photometric_s_model_native_add3.pth",
+        "bytes": 28838983,
+        "sha256": "8da59907264fb54e6eacc61cebab45e7d927c533d9620772d27495dc16914a90"
+      },
+      {
+        "path": "dst_L235_R471/photometric_d_model_native_add3.pth",
+        "bytes": 12736615,
+        "sha256": "18b1678af887e40bc6abe72cdf2a8dd035a8ca18a175f65ef6dae6b34b4fc466"
+      },
+      {
+        "path": "dst_L235_R471/dst_L000_R471/photometric_d_model_native_add3.pth",
+        "bytes": 34492903,
+        "sha256": "ca189e5a6e8e09483a0ba81d23c52eea39c87e3dc9612f267da0361b56330cce"
+      },
+      {
+        "path": "dst_L353_R471/photometric_cam.pth",
+        "bytes": 9824,
+        "sha256": "c1d443aa24e14f59b32afeaf15ff284c87ac2fbc80fdab9e61d8d5822706431d"
+      },
+      {
+        "path": "dst_L353_R471/photometric_s_model_native_add3.pth",
+        "bytes": 28838983,
+        "sha256": "8da59907264fb54e6eacc61cebab45e7d927c533d9620772d27495dc16914a90"
+      },
+      {
+        "path": "dst_L353_R471/photometric_d_model_native_add3.pth",
+        "bytes": 6343335,
+        "sha256": "9d5f26058f5da7075a15c65258d9712cc60a2132975753ba64e0a600057bb56b"
+      },
+      {
+        "path": "dst_L353_R471/dst_L000_R471/photometric_d_model_native_add3.pth",
+        "bytes": 34492903,
+        "sha256": "325e112f3d243c66c92f3ebbf3e9460de94135dd0add4d0d7a4163dc8e882869"
+      },
+      {
+        "path": "dst_L353_R471/dst_L235_R471/photometric_d_model_native_add3.pth",
+        "bytes": 12736615,
+        "sha256": "1946505ab013ee490fe3753de0b003993821bb1bda5b51a17fe94e0671748ed0"
+      },
+      {
+        "path": "dst_L000_R116/split_ind.txt",
+        "bytes": 2,
+        "sha256": "6208ef0f7750c111548cf90b6ea1d0d0a66f6bff40dbef07cb45ec436263c7d6"
+      },
+      {
+        "path": "dst_L000_R234/split_ind.txt",
+        "bytes": 3,
+        "sha256": "2ac878b0e2180616993b4b6aa71e61166fdc86c28d47e359d0ee537eb11d46d3"
+      },
+      {
+        "path": "dst_L000_R471/split_ind.txt",
+        "bytes": 3,
+        "sha256": "0a2d643bfd24a028cd236e76575d828424ccffbfa47392bd09d8ca9dc85e2f8d"
+      },
+      {
+        "path": "dst_L117_R234/split_ind.txt",
+        "bytes": 3,
+        "sha256": "dac53c17c250fd4d4d81eaf6d88435676dac1f3f3896441e277af839bf50ed8a"
+      },
+      {
+        "path": "dst_L235_R352/split_ind.txt",
+        "bytes": 3,
+        "sha256": "7cb676d57114874e00c536916e6dcad2a5d3cb8c9a5abc06335df359cd9a6ef9"
+      },
+      {
+        "path": "dst_L235_R471/split_ind.txt",
+        "bytes": 3,
+        "sha256": "459535faa370a3b5f8b87203b089623c7aeb9325abf241ec8a685b9c325047a3"
+      },
+      {
+        "path": "dst_L353_R471/split_ind.txt",
+        "bytes": 3,
+        "sha256": "fabf5b7fedb3e62a81c9298b19706249ee128011bf9d94867681020c16f8b741"
+      }
+    ],
+    "wt/wheel": [
+      {
+        "path": "dst_L000_R107/photometric_cam.pth",
+        "bytes": 9248,
+        "sha256": "03b47c67d78e87d4baf8ea29521786f34382894568080a4bf3180df75ba2c0f7"
+      },
+      {
+        "path": "dst_L000_R107/photometric_s_model_native_add3.pth",
+        "bytes": 39092359,
+        "sha256": "770d4ff50ac5303e30142bb2554d1c7dea93cbebdd4e8668e5d7d9833af4eb93"
+      },
+      {
+        "path": "dst_L000_R107/photometric_d_model_native_add3.pth",
+        "bytes": 12005415,
+        "sha256": "d2c8b104011f3f1219344b8cdc4eeb37ab78ab8cf785e8cc73bf2aa3429ec74a"
+      },
+      {
+        "path": "dst_L000_R107/dst_L000_R217/photometric_d_model_native_add3.pth",
+        "bytes": 24020391,
+        "sha256": "17af82e6b098b9817506fb0142cc38e5a5e40dd314ecf9a22896bfef6e024358"
+      },
+      {
+        "path": "dst_L000_R107/dst_L000_R436/photometric_d_model_native_add3.pth",
+        "bytes": 54850023,
+        "sha256": "b871ec62871d9c3a64cbab686143193a21daf25a4928a193067b49d7d5c5a450"
+      },
+      {
+        "path": "dst_L000_R217/photometric_cam.pth",
+        "bytes": 15456,
+        "sha256": "88415e320b18efa7a2e231f30a6ac53d2a6f1a371ca423138714b8661bf06fa2"
+      },
+      {
+        "path": "dst_L000_R217/photometric_s_model_native_add3.pth",
+        "bytes": 39092359,
+        "sha256": "770d4ff50ac5303e30142bb2554d1c7dea93cbebdd4e8668e5d7d9833af4eb93"
+      },
+      {
+        "path": "dst_L000_R217/photometric_d_model_native_add3.pth",
+        "bytes": 24020391,
+        "sha256": "c5a25575108724142f03481bf34bc00b217aac0251dc46bb6e8bd35202836c8b"
+      },
+      {
+        "path": "dst_L000_R217/dst_L000_R436/photometric_d_model_native_add3.pth",
+        "bytes": 54850023,
+        "sha256": "1d5121030204431a7ff2c9b276deb3284180cf63acfa607a378ab37e5ea68c21"
+      },
+      {
+        "path": "dst_L000_R436/photometric_cam.pth",
+        "bytes": 15456,
+        "sha256": "3cb2ac75aa9cc81fc363d102cbce673f9ba2ec94eb67a040e66f35d45c9a0704"
+      },
+      {
+        "path": "dst_L000_R436/photometric_s_model_native_add3.pth",
+        "bytes": 38481607,
+        "sha256": "41c02a6185de206b8cba9de3c8ce418078985ced9c451a99b5866c8d5a56f2fe"
+      },
+      {
+        "path": "dst_L000_R436/photometric_d_model_native_add3.pth",
+        "bytes": 54726695,
+        "sha256": "99a4960d3ce3484dc142a5ae05794d5dae055a4b24b566aaf107a896029f657b"
+      },
+      {
+        "path": "dst_L108_R217/photometric_cam.pth",
+        "bytes": 9248,
+        "sha256": "d66606d08f8a3d8da7ebaa283413434d23771c646d700630a9b21ad21f949122"
+      },
+      {
+        "path": "dst_L108_R217/photometric_s_model_native_add3.pth",
+        "bytes": 39092359,
+        "sha256": "a8e0850099a8da33bc96f4ae68e2d712a580fcad9a45498a4892417bfd50b508"
+      },
+      {
+        "path": "dst_L108_R217/photometric_d_model_native_add3.pth",
+        "bytes": 12204903,
+        "sha256": "6cd83a529590b81dffb3e9589d860b0da21a48d9d8e58b8bcfc4dfe05a169a23"
+      },
+      {
+        "path": "dst_L108_R217/dst_L000_R217/photometric_d_model_native_add3.pth",
+        "bytes": 24020391,
+        "sha256": "57b30e3601514211167ecc4f32c5898271b567a0906daed5e7bd0d0f2d14c8d4"
+      },
+      {
+        "path": "dst_L108_R217/dst_L000_R436/photometric_d_model_native_add3.pth",
+        "bytes": 54850023,
+        "sha256": "5f5083eea8be343f086fe87c0572fdcae40d506735e04f9b4022c306892116fa"
+      },
+      {
+        "path": "dst_L218_R326/photometric_cam.pth",
+        "bytes": 9312,
+        "sha256": "881cf7090438dd18a61af31d19303249ab39b6bdba079ab09d7581a6163f3942"
+      },
+      {
+        "path": "dst_L218_R326/photometric_s_model_native_add3.pth",
+        "bytes": 39092359,
+        "sha256": "770d4ff50ac5303e30142bb2554d1c7dea93cbebdd4e8668e5d7d9833af4eb93"
+      },
+      {
+        "path": "dst_L218_R326/photometric_d_model_native_add3.pth",
+        "bytes": 12076199,
+        "sha256": "7818f66ffd62a4849a3a06052159dfec05bfb77b509b4ef901190e5a5955a029"
+      },
+      {
+        "path": "dst_L218_R326/dst_L000_R436/photometric_d_model_native_add3.pth",
+        "bytes": 54850023,
+        "sha256": "d473d853c19217af9a65eaa5a74422e8c40ef09f1d7e164ff0591d1a6498cb53"
+      },
+      {
+        "path": "dst_L218_R326/dst_L218_R436/photometric_d_model_native_add3.pth",
+        "bytes": 24120167,
+        "sha256": "29f8458e4454b99d6576b64760cb0a577f656184c6724c337280c459b16ed30f"
+      },
+      {
+        "path": "dst_L218_R436/photometric_cam.pth",
+        "bytes": 15456,
+        "sha256": "9c7a05d3f0473527e57ec5c763ae876ba5dd8fa4bd0501e54bbb3624321b637a"
+      },
+      {
+        "path": "dst_L218_R436/photometric_s_model_native_add3.pth",
+        "bytes": 39092359,
+        "sha256": "a8e0850099a8da33bc96f4ae68e2d712a580fcad9a45498a4892417bfd50b508"
+      },
+      {
+        "path": "dst_L218_R436/photometric_d_model_native_add3.pth",
+        "bytes": 24120167,
+        "sha256": "36df2e76679a4884d2bf5d1b2e62c06c7f8c776b1e0bb92f62562544779a0b6b"
+      },
+      {
+        "path": "dst_L218_R436/dst_L000_R436/photometric_d_model_native_add3.pth",
+        "bytes": 54850023,
+        "sha256": "d245eda1e7c0923e7f6634488d866baa0cd17b97a3402ec83d125b459d60853f"
+      },
+      {
+        "path": "dst_L327_R436/photometric_cam.pth",
+        "bytes": 9312,
+        "sha256": "20d641a653c7c5490a53e9768b9c01ab59a4020f4a993e9bb00fbfe5f4edf813"
+      },
+      {
+        "path": "dst_L327_R436/photometric_s_model_native_add3.pth",
+        "bytes": 39092359,
+        "sha256": "a8e0850099a8da33bc96f4ae68e2d712a580fcad9a45498a4892417bfd50b508"
+      },
+      {
+        "path": "dst_L327_R436/photometric_d_model_native_add3.pth",
+        "bytes": 12204903,
+        "sha256": "df2c3edb006d7d6105aea0d59d356aaca0d246e3bf2f756bdd2c0ccd1532e75b"
+      },
+      {
+        "path": "dst_L327_R436/dst_L000_R436/photometric_d_model_native_add3.pth",
+        "bytes": 54850023,
+        "sha256": "c03b75718dab5134367b6c298fa628159d2f2b2020a0c26951bc84e947e43f86"
+      },
+      {
+        "path": "dst_L327_R436/dst_L218_R436/photometric_d_model_native_add3.pth",
+        "bytes": 24120167,
+        "sha256": "41af9c29d1589883257604548f145cb590ef7cdb7fb9abeb9290473387cc975c"
+      },
+      {
+        "path": "dst_L000_R107/split_ind.txt",
+        "bytes": 2,
+        "sha256": "2858dcd1057d3eae7f7d5f782167e24b61153c01551450a628cee722509f6529"
+      },
+      {
+        "path": "dst_L000_R217/split_ind.txt",
+        "bytes": 3,
+        "sha256": "9537f32ec7599e1ae953af6c9f929fe747ff9dadf79a9beff1f304c550173011"
+      },
+      {
+        "path": "dst_L000_R436/split_ind.txt",
+        "bytes": 3,
+        "sha256": "5966abd0cbfc86f98a186531b2b4ee5f6e910120ce13222f98207203dfc9a9a2"
+      },
+      {
+        "path": "dst_L108_R217/split_ind.txt",
+        "bytes": 3,
+        "sha256": "79d6eaa2676189eb927f2e16a70091474078e2117c3fc607d35cdc6b591ef355"
+      },
+      {
+        "path": "dst_L218_R326/split_ind.txt",
+        "bytes": 3,
+        "sha256": "1c6c0bb2c7ecdc3be8e134f79b9de45155258c1f554ae7542dce48f5cc8d63f0"
+      },
+      {
+        "path": "dst_L218_R436/split_ind.txt",
+        "bytes": 3,
+        "sha256": "02cca3803b564ede11ccf9f303c9910b39c532061e7a8c3b773169bc3d3c140b"
+      },
+      {
+        "path": "dst_L327_R436/split_ind.txt",
+        "bytes": 3,
+        "sha256": "392a52e4f77c40bf3321dc2feac356fac2a906a80c961748170af4ce2bce1e6a"
+      }
+    ]
+  }
+}

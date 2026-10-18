@@ -1,0 +1,6 @@
+# Additions to the repository's reconstruction environment / Docker image.
+-r requirements-cpu.txt
+lpips==0.1.4
+jax==0.6.2
+jaxlib==0.6.2
+evo==1.34.3

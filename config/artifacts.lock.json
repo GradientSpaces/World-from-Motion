@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "bundle_name": "world-from-motion-weights",
+  "bundle_version": "0.1.0",
+  "ngc_model_ref": "<org>/<team>/world-from-motion-weights:0.1.0",
+  "manifest": "manifest.json",
+  "required_paths": {
+    "wan_base": "wan/Wan-AI/Wan2.1-VACE-14B",
+    "wan_tokenizer": "wan/Wan-AI/Wan2.1-T2V-1.3B/google/umt5-xxl",
+    "diffsynth_checkpoint": "diffsynth/WT+SOM-step-16000.safetensors",
+    "vggt_omega_checkpoint": "vggt-omega/vggt_omega_1b_512.pt",
+    "sam3_checkpoint": "sam3/sam3.pt",
+    "sam3_bpe": "sam3/bpe_simple_vocab_16e6.txt.gz",
+    "cowtracker_checkpoint": "cowtracker/cowtracker.pt",
+    "waft_checkpoint": "waft/waft-a1-downstream.pth",
+    "waft_depth_anything_checkpoint": "waft/depth_anything_v2_vits.pth"
+  }
+}

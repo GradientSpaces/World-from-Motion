@@ -1,0 +1,26 @@
+{
+    "name": "tar-c-t-spring-1080p",
+    "dataset": "spring",
+    "gpus": [0, 1, 2, 3, 4, 5, 6, 7],
+
+    "dav2_backbone": "vits",
+    "network_backbone": "vits",
+    "algorithm": "waft-a1",
+    "use_var": true,
+    "var_min": 0,
+    "var_max": 10,
+    "iters": 5,
+
+    "image_size": [1080, 1920],
+    "scale": 0,
+    "batch_size": 8,
+    "epsilon": 1e-8,
+    "lr": 1e-4,
+    "wdecay": 1e-5,
+    "dropout": 0,
+    "clip": 1.0,
+    "gamma": 0.85,
+    "num_steps": 200000,
+    
+    "restore_ckpt": null
+}

@@ -1,0 +1,34 @@
+.git
+.pytest_cache
+__pycache__
+*.pyc
+artifacts
+runs
+tests
+
+# Keep private local assets out of COPY . . and the build context.
+.gitignore
+.agents
+.codex
+.ruff_cache
+.venv*
+data
+experiments
+dist
+build
+slurm/logs
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.safetensors
+**/*.bin
+
+# User videos and generated scene outputs.
+input
+output
+outputs
+models
+logs
+work
+reproduce/**/results
+release

@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "Please cite the World from Motion paper when using this code."
+type: software
+license: Apache-2.0
+title: "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video"
+url: "https://research.nvidia.com/labs/amri/projects/world-from-motion/"
+authors:
+  - family-names: Zhu
+    given-names: Liyuan
+  - family-names: Huang
+    given-names: Shengyu
+  - family-names: Mazumdar
+    given-names: Amrita
+  - family-names: Li
+    given-names: Tianye
+  - family-names: Gojcic
+    given-names: Zan
+  - family-names: Wetzstein
+    given-names: Gordon
+  - family-names: Armeni
+    given-names: Iro
+  - family-names: De Mello
+    given-names: Shalini
+  - family-names: Trevithick
+    given-names: Alex
+preferred-citation:
+  type: conference-paper
+  title: "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video"
+  authors:
+    - family-names: Zhu
+      given-names: Liyuan
+    - family-names: Huang
+      given-names: Shengyu
+    - family-names: Mazumdar
+      given-names: Amrita
+    - family-names: Li
+      given-names: Tianye
+    - family-names: Gojcic
+      given-names: Zan
+    - family-names: Wetzstein
+      given-names: Gordon
+    - family-names: Armeni
+      given-names: Iro
+    - family-names: De Mello
+      given-names: Shalini
+    - family-names: Trevithick
+      given-names: Alex
+  year: 2026
+  collection-title: "Advances in Neural Information Processing Systems (NeurIPS)"
+  doi: "10.48550/arXiv.2607.01202"
+  url: "https://arxiv.org/abs/2607.01202"

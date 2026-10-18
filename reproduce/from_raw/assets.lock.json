@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "artifacts": [
+    {
+      "path": "downloads/released_data.zip",
+      "url": "https://huggingface.co/datasets/wangqisen/worldtree-data/resolve/97c7b8b505ced6e1ed1f32cc68f86d49f05fae2d/released_data.zip",
+      "sha256": "12bd0bd14bf228c1310e92a62ed0a953a459e5799755fe2e05718af5c1ff785e",
+      "bytes": 18909243805,
+      "revision": "97c7b8b505ced6e1ed1f32cc68f86d49f05fae2d",
+      "group": "data"
+    },
+    {
+      "path": "models/scaled_online.pth",
+      "url": "https://huggingface.co/facebook/cotracker3/resolve/bf55ea50d4390e1820a267f131cd6587240fb2c5/scaled_online.pth",
+      "sha256": "205d34789f19699d64b22cf93f9b697f15f28d4025240e31532e504109837218",
+      "bytes": 101695610,
+      "revision": "bf55ea50d4390e1820a267f131cd6587240fb2c5",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/Wan2.1_VAE.pth",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/Wan2.1_VAE.pth",
+      "sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981",
+      "bytes": 507609880,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/diffusion_pytorch_model-00001-of-00007.safetensors",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/diffusion_pytorch_model-00001-of-00007.safetensors",
+      "sha256": "569d54a07279b89f8281421fccf27ee2459ea853ce6845d3536b8664b0070078",
+      "bytes": 9887603256,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/diffusion_pytorch_model-00002-of-00007.safetensors",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/diffusion_pytorch_model-00002-of-00007.safetensors",
+      "sha256": "b17ff172f262b4da91c31e8c46d3b7707f62cecfff6e18dd0072ab29eb350e46",
+      "bytes": 9839059648,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/diffusion_pytorch_model-00003-of-00007.safetensors",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/diffusion_pytorch_model-00003-of-00007.safetensors",
+      "sha256": "741fd1508cd0288f0bb0f4fb3df6734da521d5ff23746170c848564a367e2cea",
+      "bytes": 9839059744,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/diffusion_pytorch_model-00004-of-00007.safetensors",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/diffusion_pytorch_model-00004-of-00007.safetensors",
+      "sha256": "47b08ba289b127fc64979bc877ee07e1c87aeb8eb8cd47bcfd112682847981ba",
+      "bytes": 9839059744,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/diffusion_pytorch_model-00005-of-00007.safetensors",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/diffusion_pytorch_model-00005-of-00007.safetensors",
+      "sha256": "29e35f4cf0e3a61f4726c960f1babf71d65677a8c99fe704257d665c9498ee88",
+      "bytes": 9839059744,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/diffusion_pytorch_model-00006-of-00007.safetensors",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/diffusion_pytorch_model-00006-of-00007.safetensors",
+      "sha256": "91ac087a40b814331e87f5f015af11ba999275d48d2af49591b6bf7727d3c146",
+      "bytes": 7910235256,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/diffusion_pytorch_model-00007-of-00007.safetensors",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/diffusion_pytorch_model-00007-of-00007.safetensors",
+      "sha256": "d2c107015cdef963cb8f9b7006330e7d7355ca648d90af32bcf80ed76d8eba1f",
+      "bytes": 6098227760,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/Wan2.1-VACE-14B/models_t5_umt5-xxl-enc-bf16.pth",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B/resolve/539c162b1387eac9dc4c20bd3f74671309e76a4c/models_t5_umt5-xxl-enc-bf16.pth",
+      "sha256": "7cace0da2b446bbbbc57d031ab6cf163a3d59b366da94e5afe36745b746fd81d",
+      "bytes": 11361920418,
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "group": "models"
+    },
+    {
+      "path": "models/tokenizer/special_tokens_map.json",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/37ec512624d61f7aa208f7ea8140a131f93afc9a/google/umt5-xxl/special_tokens_map.json",
+      "sha256": "7b8a9f5040adb67b5805abdfd42c1f8d0f3d0e711f10726580eb3789cd0ad61d",
+      "bytes": 6623,
+      "revision": "37ec512624d61f7aa208f7ea8140a131f93afc9a",
+      "group": "models"
+    },
+    {
+      "path": "models/tokenizer/spiece.model",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/37ec512624d61f7aa208f7ea8140a131f93afc9a/google/umt5-xxl/spiece.model",
+      "sha256": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458",
+      "bytes": 4548313,
+      "revision": "37ec512624d61f7aa208f7ea8140a131f93afc9a",
+      "group": "models"
+    },
+    {
+      "path": "models/tokenizer/tokenizer.json",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/37ec512624d61f7aa208f7ea8140a131f93afc9a/google/umt5-xxl/tokenizer.json",
+      "sha256": "6e197b4d3dbd71da14b4eb255f4fa91c9c1f2068b20a2de2472967ca3d22602b",
+      "bytes": 16837417,
+      "revision": "37ec512624d61f7aa208f7ea8140a131f93afc9a",
+      "group": "models"
+    },
+    {
+      "path": "models/tokenizer/tokenizer_config.json",
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/37ec512624d61f7aa208f7ea8140a131f93afc9a/google/umt5-xxl/tokenizer_config.json",
+      "sha256": "ed9a3a8b0faa71a70a32847e0435fe036e6e112d4df4edb7bb48a921e344dc05",
+      "bytes": 61728,
+      "revision": "37ec512624d61f7aa208f7ea8140a131f93afc9a",
+      "group": "models"
+    },
+    {
+      "path": "downloads/raft-models.zip",
+      "url": "https://dl.dropboxusercontent.com/s/4j4z58wuv8o0mfz/models.zip",
+      "sha256": "4be6101b271f58ec49866da5cf609fd17e86e9cae2483f70630ef4a295dc66bd",
+      "bytes": 81977417,
+      "group": "models",
+      "extract": [
+        {
+          "member": "models/raft-things.pth",
+          "path": "models/raft-things.pth",
+          "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1",
+          "bytes": 21108000
+        }
+      ]
+    },
+    {
+      "path": "models/bootstapir_checkpoint_v2.pt",
+      "url": "https://storage.googleapis.com/dm-tapnet/bootstap/bootstapir_checkpoint_v2.pt",
+      "sha256": "8493c7a69e02c85b9382fbb3c7b8b539b36bc08ede744b9e99feb739a0129f4b",
+      "bytes": 218886140,
+      "group": "models"
+    },
+    {
+      "path": "models/sam3/sam3.pt",
+      "url": "https://huggingface.co/facebook/sam3/resolve/3c879f39826c281e95690f02c7821c4de09afae7/sam3.pt",
+      "hf_repo": "facebook/sam3",
+      "hf_file": "sam3.pt",
+      "revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+      "bytes": 3450062241,
+      "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+      "group": "models"
+    }
+  ],
+  "wfm": {
+    "path": "models/wfm-step-12500.safetensors",
+    "url": null,
+    "bytes": 16591588312,
+    "sha256": "32aa1215af2dd36a6dc07900e6196486c914003a5f5934b7fa51498c05301c01"
+  }
+}

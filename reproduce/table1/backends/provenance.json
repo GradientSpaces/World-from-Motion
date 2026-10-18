@@ -1,0 +1,829 @@
+{
+  "description": "Selected local research runtime source snapshots. source_sha256 preserves the imported research working-tree contents, including uncommitted changes; integrated_sha256 identifies the current release destination. Historical runs retain their own runtime source fingerprints. Release-specific adaptations are documented in README.md.",
+  "files": [
+    {
+      "backend": "ms",
+      "source": "mosca_v2/LICENSE",
+      "destination": "backends/ms/LICENSE",
+      "source_sha256": "3b764073ab96eb8a03b8b7a1d1167b970020bff1efd3745e87f0b22dcbd8c56d",
+      "integrated_sha256": "3b764073ab96eb8a03b8b7a1d1167b970020bff1efd3745e87f0b22dcbd8c56d",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/data_utils/agibot_helpers.py",
+      "destination": "backends/ms/data_utils/agibot_helpers.py",
+      "source_sha256": "763f1920c21d3c8f567cc2cd56ceed24ebf625e9be06b7230df3ab29a59a6673",
+      "integrated_sha256": "763f1920c21d3c8f567cc2cd56ceed24ebf625e9be06b7230df3ab29a59a6673",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/data_utils/iphone_helpers.py",
+      "destination": "backends/ms/data_utils/iphone_helpers.py",
+      "source_sha256": "21b0a247c0448de95454a026d85b3f89a40bb3a708370ce2788d3c7b7f2c482c",
+      "integrated_sha256": "21b0a247c0448de95454a026d85b3f89a40bb3a708370ce2788d3c7b7f2c482c",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/data_utils/nvidia_helpers.py",
+      "destination": "backends/ms/data_utils/nvidia_helpers.py",
+      "source_sha256": "6c7c2c41dc15cc865de63fe43d982b5587008ee8f82ebeb6c70e7dfa2c7e87bf",
+      "integrated_sha256": "6c7c2c41dc15cc865de63fe43d982b5587008ee8f82ebeb6c70e7dfa2c7e87bf",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/campose_alignment.py",
+      "destination": "backends/ms/eval_utils/campose_alignment.py",
+      "source_sha256": "228025cbf56bc18390f03d3bbce4faca7c34c98bba6c78279eba88d7b134de14",
+      "integrated_sha256": "228025cbf56bc18390f03d3bbce4faca7c34c98bba6c78279eba88d7b134de14",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/dycheck_metrics.py",
+      "destination": "backends/ms/eval_utils/dycheck_metrics.py",
+      "source_sha256": "44e79df96eea9001e8e59d51e3ff167ee7dee65046c290a309a4e9d78d4a1199",
+      "integrated_sha256": "44e79df96eea9001e8e59d51e3ff167ee7dee65046c290a309a4e9d78d4a1199",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/dycheck_metrics_pt.py",
+      "destination": "backends/ms/eval_utils/dycheck_metrics_pt.py",
+      "source_sha256": "6e9d2f7ec2457302bf626cfa8227c63db8d1e7df867f73fe8ad61afb66541809",
+      "integrated_sha256": "6e9d2f7ec2457302bf626cfa8227c63db8d1e7df867f73fe8ad61afb66541809",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/eval_dyncheck.py",
+      "destination": "backends/ms/eval_utils/eval_dyncheck.py",
+      "source_sha256": "dedbcc6be9bc518c5ffec705c442c8a60dda77586cc8831f3117ffad5d6ff9eb",
+      "integrated_sha256": "dedbcc6be9bc518c5ffec705c442c8a60dda77586cc8831f3117ffad5d6ff9eb",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/eval_dyncheck_calibration.py",
+      "destination": "backends/ms/eval_utils/eval_dyncheck_calibration.py",
+      "source_sha256": "3415fd104cec68af70a61a60099906fcac5cdf56986c20d209ba511d6fc87aa5",
+      "integrated_sha256": "3415fd104cec68af70a61a60099906fcac5cdf56986c20d209ba511d6fc87aa5",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/eval_nvidia.py",
+      "destination": "backends/ms/eval_utils/eval_nvidia.py",
+      "source_sha256": "b03d56bfe8cd66e8741377ad5eb04b19504aa71c1796ced7894b10fd5be5fe81",
+      "integrated_sha256": "943b90177def80c9bffa314da528da1548b006d0e2f9d7d3d543baab3a9738e6",
+      "modified_for_release": true
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/eval_sintel_cam.py",
+      "destination": "backends/ms/eval_utils/eval_sintel_cam.py",
+      "source_sha256": "8b01b21fbae8710fcdbdc2062fad8304ed10c6a5c428294be053ba234739c4b7",
+      "integrated_sha256": "8b01b21fbae8710fcdbdc2062fad8304ed10c6a5c428294be053ba234739c4b7",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/eval_tum_cam.py",
+      "destination": "backends/ms/eval_utils/eval_tum_cam.py",
+      "source_sha256": "f57e2db51e763329b67883c3c72f4c1b9ac11c7fef6fa6f26796349f95268036",
+      "integrated_sha256": "f57e2db51e763329b67883c3c72f4c1b9ac11c7fef6fa6f26796349f95268036",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/eval_utils/sintel_io.py",
+      "destination": "backends/ms/eval_utils/sintel_io.py",
+      "source_sha256": "253febcd4acd920100df2048a4d2142faf6aa8d459fe821d36f879fd2ebcc622",
+      "integrated_sha256": "253febcd4acd920100df2048a4d2142faf6aa8d459fe821d36f879fd2ebcc622",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_moca/bundle.py",
+      "destination": "backends/ms/lib_moca/bundle.py",
+      "source_sha256": "ba6ea6c8491fa2bfb335cb0dc8909e0133a212024799df4d98133ec807b4b00a",
+      "integrated_sha256": "ba6ea6c8491fa2bfb335cb0dc8909e0133a212024799df4d98133ec807b4b00a",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_moca/camera.py",
+      "destination": "backends/ms/lib_moca/camera.py",
+      "source_sha256": "ef1be9e9f19c189d32c360bd7ab7b1fe0911531b733d791bc6a98027f3bd32ce",
+      "integrated_sha256": "ef1be9e9f19c189d32c360bd7ab7b1fe0911531b733d791bc6a98027f3bd32ce",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_moca/epi_helpers.py",
+      "destination": "backends/ms/lib_moca/epi_helpers.py",
+      "source_sha256": "00c7836e50bf37cf12cb5991cd02b45f1b56f1ca40bc1ddaf1aeaf82d81bf4ff",
+      "integrated_sha256": "00c7836e50bf37cf12cb5991cd02b45f1b56f1ca40bc1ddaf1aeaf82d81bf4ff",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_moca/intrinsic_helpers.py",
+      "destination": "backends/ms/lib_moca/intrinsic_helpers.py",
+      "source_sha256": "678fd15fdd1827e93290ded793e0f92ba8d803dc4c6318dbe98e034cd97c0cc4",
+      "integrated_sha256": "678fd15fdd1827e93290ded793e0f92ba8d803dc4c6318dbe98e034cd97c0cc4",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_moca/moca.py",
+      "destination": "backends/ms/lib_moca/moca.py",
+      "source_sha256": "c54634a00f9e36ad87eb53eff0abb922aa8b44f26a88338b379c60b1e713cc0f",
+      "integrated_sha256": "c54634a00f9e36ad87eb53eff0abb922aa8b44f26a88338b379c60b1e713cc0f",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_moca/moca_misc.py",
+      "destination": "backends/ms/lib_moca/moca_misc.py",
+      "source_sha256": "db0629982fe694ad51db80821fde45af91f379d7caa922ba28a89efd976ac743",
+      "integrated_sha256": "db0629982fe694ad51db80821fde45af91f379d7caa922ba28a89efd976ac743",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_moca/robust_utils.py",
+      "destination": "backends/ms/lib_moca/robust_utils.py",
+      "source_sha256": "70447e7255309b6ddebb0345ec13a9772ba1a1cee2b978dbbdbf55850ceea082",
+      "integrated_sha256": "70447e7255309b6ddebb0345ec13a9772ba1a1cee2b978dbbdbf55850ceea082",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_moca/viz_helper.py",
+      "destination": "backends/ms/lib_moca/viz_helper.py",
+      "source_sha256": "9d5149ba7302d98c812619205211fa6dfe3f137c646b20babde39b5a2832d714",
+      "integrated_sha256": "9d5149ba7302d98c812619205211fa6dfe3f137c646b20babde39b5a2832d714",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/camera.py",
+      "destination": "backends/ms/lib_mosca/camera.py",
+      "source_sha256": "ef1be9e9f19c189d32c360bd7ab7b1fe0911531b733d791bc6a98027f3bd32ce",
+      "integrated_sha256": "ef1be9e9f19c189d32c360bd7ab7b1fe0911531b733d791bc6a98027f3bd32ce",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/dynamic_gs.py",
+      "destination": "backends/ms/lib_mosca/dynamic_gs.py",
+      "source_sha256": "264acc3d8f4c453225fa5bfa9af89808a80bfcd3680cfd32bb5962e138f5773a",
+      "integrated_sha256": "264acc3d8f4c453225fa5bfa9af89808a80bfcd3680cfd32bb5962e138f5773a",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/dynamic_solver.py",
+      "destination": "backends/ms/lib_mosca/dynamic_solver.py",
+      "source_sha256": "c78accc4d78d7b0ab47a1c4afd8d7dbb7f860c846b5aa4c6e97d9df60724b780",
+      "integrated_sha256": "c78accc4d78d7b0ab47a1c4afd8d7dbb7f860c846b5aa4c6e97d9df60724b780",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/dynamic_solver_utils.py",
+      "destination": "backends/ms/lib_mosca/dynamic_solver_utils.py",
+      "source_sha256": "ed46196b1194862ccf317423e89109f800515ef1f611f47d07d9cc5aac4b5690",
+      "integrated_sha256": "ed46196b1194862ccf317423e89109f800515ef1f611f47d07d9cc5aac4b5690",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/gs_utils/gs_optim_helper.py",
+      "destination": "backends/ms/lib_mosca/gs_utils/gs_optim_helper.py",
+      "source_sha256": "61884d7469a23b41715862be9fa4706248083558c97c459caa049f9f31cb432c",
+      "integrated_sha256": "61884d7469a23b41715862be9fa4706248083558c97c459caa049f9f31cb432c",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/gs_utils/loss_helper.py",
+      "destination": "backends/ms/lib_mosca/gs_utils/loss_helper.py",
+      "source_sha256": "dfaa7a137416c7a886be176a5e06c6346e02de77232208e72905c322e91bb12b",
+      "integrated_sha256": "dfaa7a137416c7a886be176a5e06c6346e02de77232208e72905c322e91bb12b",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/gs_utils/ssim_helper.py",
+      "destination": "backends/ms/lib_mosca/gs_utils/ssim_helper.py",
+      "source_sha256": "2d8eac7a927added3dd00c67966873f499e6f00e000fbe9cc390685e37ad0ecb",
+      "integrated_sha256": "2d8eac7a927added3dd00c67966873f499e6f00e000fbe9cc390685e37ad0ecb",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/misc.py",
+      "destination": "backends/ms/lib_mosca/misc.py",
+      "source_sha256": "aaab3d9f88d6a01957fa3ee9e605433e47c5b7e0328e35d92991705979bdeb00",
+      "integrated_sha256": "aaab3d9f88d6a01957fa3ee9e605433e47c5b7e0328e35d92991705979bdeb00",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/mosca.py",
+      "destination": "backends/ms/lib_mosca/mosca.py",
+      "source_sha256": "d3371e77adbef9db95a91303eea01939306caf069a774f90aa3c80a18881eff0",
+      "integrated_sha256": "5e17fc200418e10f577f7f3a496af9ca684d3ba6b5bcffd1dddc4b808d68798e",
+      "modified_for_release": true
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/photo_recon.py",
+      "destination": "backends/ms/lib_mosca/photo_recon.py",
+      "source_sha256": "457fc80cdaa59cbb5916d8fcb4ea348a2ab3cd2da14e5a5ab70d0edddf6222ec",
+      "integrated_sha256": "c7992c496392b79415c9be4144d89c0effedd0d1388f8244e723689c5c95c7bc",
+      "modified_for_release": true
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/photo_recon_utils.py",
+      "destination": "backends/ms/lib_mosca/photo_recon_utils.py",
+      "source_sha256": "ed799556e3edd12d936d79e71b7ecc74c54e6cdd7bf91bdd9fc4bf08e7a91538",
+      "integrated_sha256": "ed799556e3edd12d936d79e71b7ecc74c54e6cdd7bf91bdd9fc4bf08e7a91538",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/photo_recon_viz_utils.py",
+      "destination": "backends/ms/lib_mosca/photo_recon_viz_utils.py",
+      "source_sha256": "02356b150f6e57e4efbdf58617e01797ffa79d32e983d868eb157b5b58c6a430",
+      "integrated_sha256": "02356b150f6e57e4efbdf58617e01797ffa79d32e983d868eb157b5b58c6a430",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/scaffold_utils/dualquat_helper.py",
+      "destination": "backends/ms/lib_mosca/scaffold_utils/dualquat_helper.py",
+      "source_sha256": "316fcf7f76d81740e5830570cdd77357238aa6a4726cb6d54c6d53c5ed1d2986",
+      "integrated_sha256": "316fcf7f76d81740e5830570cdd77357238aa6a4726cb6d54c6d53c5ed1d2986",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/scaffold_utils/fov_helper.py",
+      "destination": "backends/ms/lib_mosca/scaffold_utils/fov_helper.py",
+      "source_sha256": "6f615e9f4d89ba8dc5b89f96bbde0fed8a161db478ce7f14535279f0170e73bf",
+      "integrated_sha256": "6f615e9f4d89ba8dc5b89f96bbde0fed8a161db478ce7f14535279f0170e73bf",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/scaffold_utils/viz_helper.py",
+      "destination": "backends/ms/lib_mosca/scaffold_utils/viz_helper.py",
+      "source_sha256": "2b19b8f27b5cb4a3b2a0a4dcea81d6a62daa593b54e51873a1e733c2e7137e2b",
+      "integrated_sha256": "2b19b8f27b5cb4a3b2a0a4dcea81d6a62daa593b54e51873a1e733c2e7137e2b",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_mosca/static_gs.py",
+      "destination": "backends/ms/lib_mosca/static_gs.py",
+      "source_sha256": "c243abc7267ce21f5f0a1ba3827760b68b38735121e7904fcb7165a87080367e",
+      "integrated_sha256": "c243abc7267ce21f5f0a1ba3827760b68b38735121e7904fcb7165a87080367e",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_prior/epi_error/epi_analysis.py",
+      "destination": "backends/ms/lib_prior/epi_error/epi_analysis.py",
+      "source_sha256": "fa1f2664cf1a7c34b30b00ebc3f2d897ca7d5574a59bf36aa3e4d20567c3803b",
+      "integrated_sha256": "fa1f2664cf1a7c34b30b00ebc3f2d897ca7d5574a59bf36aa3e4d20567c3803b",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_prior/prior_loading.py",
+      "destination": "backends/ms/lib_prior/prior_loading.py",
+      "source_sha256": "c5734949b521d01870ba91d804c5e38899de1fc82aa8d50643b505f52d0db328",
+      "integrated_sha256": "c5734949b521d01870ba91d804c5e38899de1fc82aa8d50643b505f52d0db328",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_prior/tracking/cotracker_visualizer.py",
+      "destination": "backends/ms/lib_prior/tracking/cotracker_visualizer.py",
+      "source_sha256": "27cb56b86e381506b90aaafd861db0599fbe42dded39bdb2265d2ec46bf16aa2",
+      "integrated_sha256": "27cb56b86e381506b90aaafd861db0599fbe42dded39bdb2265d2ec46bf16aa2",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_render/gauspl_renderer_gof.py",
+      "destination": "backends/ms/lib_render/gauspl_renderer_gof.py",
+      "source_sha256": "48137dd85c321db66b6e49f323a48c902461b1e92ad4b2d048bf59962084d825",
+      "integrated_sha256": "48137dd85c321db66b6e49f323a48c902461b1e92ad4b2d048bf59962084d825",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_render/gauspl_renderer_native.py",
+      "destination": "backends/ms/lib_render/gauspl_renderer_native.py",
+      "source_sha256": "f8f19f52d19abeb7a9c2cb96cd69b434987778957d15b96ca1ee104169aad383",
+      "integrated_sha256": "f8f19f52d19abeb7a9c2cb96cd69b434987778957d15b96ca1ee104169aad383",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_render/gauspl_renderer_native_add3.py",
+      "destination": "backends/ms/lib_render/gauspl_renderer_native_add3.py",
+      "source_sha256": "b682f3a37db251c714ff61cdda4455ae398782bdb2da8adfe01b7ea47d0d05c3",
+      "integrated_sha256": "3a2030e58939eaa4b2581522526d075f3e6b9079f7e780fb92c196ffe854655b",
+      "modified_for_release": true
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_render/render_helper.py",
+      "destination": "backends/ms/lib_render/render_helper.py",
+      "source_sha256": "507305587bb114d69cb1e3b66e1b544a55dc9043b420e8fabc2b9c36f8b62f34",
+      "integrated_sha256": "507305587bb114d69cb1e3b66e1b544a55dc9043b420e8fabc2b9c36f8b62f34",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lib_render/sh_utils.py",
+      "destination": "backends/ms/lib_render/sh_utils.py",
+      "source_sha256": "7d1ff267546390635e6d1f68c4f88c4a8b052482d5c9be1d32f06bc69e9a96e7",
+      "integrated_sha256": "7d1ff267546390635e6d1f68c4f88c4a8b052482d5c9be1d32f06bc69e9a96e7",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/lite_moca_reconstruct.py",
+      "destination": "backends/ms/lite_moca_reconstruct.py",
+      "source_sha256": "36c216967af61e1964b600007598658fddd82a8ca371ee16bd0b27339b00aa73",
+      "integrated_sha256": "36c216967af61e1964b600007598658fddd82a8ca371ee16bd0b27339b00aa73",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/mosca_evaluate.py",
+      "destination": "backends/ms/mosca_evaluate.py",
+      "source_sha256": "7eebc4631add3f052d5bba7caaa7a62b5327138feef466ad9c017c3074fa4bf7",
+      "integrated_sha256": "7eebc4631add3f052d5bba7caaa7a62b5327138feef466ad9c017c3074fa4bf7",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/mosca_evaluate_ours.py",
+      "destination": "backends/ms/mosca_evaluate_ours.py",
+      "source_sha256": "fc4eff176906760017b1badf4d6fefaa64f5d0d34b18662d7bfde7878aefedcd",
+      "integrated_sha256": "fc4eff176906760017b1badf4d6fefaa64f5d0d34b18662d7bfde7878aefedcd",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/mosca_reconstruct.py",
+      "destination": "backends/ms/mosca_reconstruct.py",
+      "source_sha256": "901086d0836823cd2ad0c0acb5b1a53a2fde3157c35b8974f639b33f962a2ef0",
+      "integrated_sha256": "901086d0836823cd2ad0c0acb5b1a53a2fde3157c35b8974f639b33f962a2ef0",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/mosca_viz.py",
+      "destination": "backends/ms/mosca_viz.py",
+      "source_sha256": "c8473348757487346ddb114a530dc52eabfa91f2330d1986a82896d26a820d09",
+      "integrated_sha256": "03eea61d1ffc1eb6c2937309445fa6b1c7b6d0b51d9cb8ce6245bde969bb63d2",
+      "modified_for_release": true
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/recon_utils.py",
+      "destination": "backends/ms/recon_utils.py",
+      "source_sha256": "b7de2473878860ea70595e01ae504d2333876b8209b87149d4891c48a7b58d96",
+      "integrated_sha256": "b7de2473878860ea70595e01ae504d2333876b8209b87149d4891c48a7b58d96",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/viz_utils.py",
+      "destination": "backends/ms/viz_utils.py",
+      "source_sha256": "a43ec7c9593ce71b1b9cf8018de3f769cc96ace946bb00b7bfb278d25d46e274",
+      "integrated_sha256": "a43ec7c9593ce71b1b9cf8018de3f769cc96ace946bb00b7bfb278d25d46e274",
+      "modified_for_release": false
+    },
+    {
+      "backend": "ms",
+      "source": "mosca_v2/wt_compat_common.py",
+      "destination": "backends/ms/wt_compat_common.py",
+      "source_sha256": "63ba8a14d720a589d3599dff62cac06aff720ea242604f52d598804abb862573",
+      "integrated_sha256": "63ba8a14d720a589d3599dff62cac06aff720ea242604f52d598804abb862573",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/LICENSE",
+      "destination": "backends/wt/LICENSE",
+      "source_sha256": "4e16a8820feaff6dc7e51072a80a2cf6c9dd43002e83948c11da924fddf8b7b1",
+      "integrated_sha256": "4e16a8820feaff6dc7e51072a80a2cf6c9dd43002e83948c11da924fddf8b7b1",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/data_utils/iphone_helpers.py",
+      "destination": "backends/wt/data_utils/iphone_helpers.py",
+      "source_sha256": "26f0ce07f9625b369a5cf2cbf480686c73c30c93b00b86ae718b7d8198657171",
+      "integrated_sha256": "26f0ce07f9625b369a5cf2cbf480686c73c30c93b00b86ae718b7d8198657171",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/data_utils/multicamvideo_helpers.py",
+      "destination": "backends/wt/data_utils/multicamvideo_helpers.py",
+      "source_sha256": "9f4493eca50b358aa913fef2814b8e2b433dd545efd58810d4d32880224b9728",
+      "integrated_sha256": "9f4493eca50b358aa913fef2814b8e2b433dd545efd58810d4d32880224b9728",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/data_utils/nvidia_helpers.py",
+      "destination": "backends/wt/data_utils/nvidia_helpers.py",
+      "source_sha256": "303dbd634bf01f443ee3b2f67346639d73f39316409586fc03de5d202a93ca9d",
+      "integrated_sha256": "303dbd634bf01f443ee3b2f67346639d73f39316409586fc03de5d202a93ca9d",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/eval_utils/campose_alignment.py",
+      "destination": "backends/wt/eval_utils/campose_alignment.py",
+      "source_sha256": "f218b90ac0f3318980395f6c3703c556fab0c917e7479f102d1dcc349913eca3",
+      "integrated_sha256": "f218b90ac0f3318980395f6c3703c556fab0c917e7479f102d1dcc349913eca3",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/eval_utils/dycheck_metrics.py",
+      "destination": "backends/wt/eval_utils/dycheck_metrics.py",
+      "source_sha256": "1ddb646110d7bf89fb18b3c93d7486dafdf22f15cbaceef17b9bce2c16a122af",
+      "integrated_sha256": "1ddb646110d7bf89fb18b3c93d7486dafdf22f15cbaceef17b9bce2c16a122af",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/eval_utils/dycheck_metrics_pt.py",
+      "destination": "backends/wt/eval_utils/dycheck_metrics_pt.py",
+      "source_sha256": "bb1fda44ace0c1c186ea81bac063cae5a436bf5d62c9f216b1e7c57eba67df75",
+      "integrated_sha256": "bb1fda44ace0c1c186ea81bac063cae5a436bf5d62c9f216b1e7c57eba67df75",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/eval_utils/eval_dyncheck.py",
+      "destination": "backends/wt/eval_utils/eval_dyncheck.py",
+      "source_sha256": "a50a46f44eaec80e4c25e02c9ab5b0eaa2e827f3e3832d7b90a37ab7a7600f1a",
+      "integrated_sha256": "a50a46f44eaec80e4c25e02c9ab5b0eaa2e827f3e3832d7b90a37ab7a7600f1a",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/eval_utils/eval_dyncheck_calibration.py",
+      "destination": "backends/wt/eval_utils/eval_dyncheck_calibration.py",
+      "source_sha256": "4f549ba20afc880426931776d3445d7c2ecfb0d8100062fead5b6896ba8b4dd4",
+      "integrated_sha256": "4f549ba20afc880426931776d3445d7c2ecfb0d8100062fead5b6896ba8b4dd4",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/eval_utils/eval_nvidia.py",
+      "destination": "backends/wt/eval_utils/eval_nvidia.py",
+      "source_sha256": "e7d6afd6cf0277c65111ddb617e8c44f39c53e3b06eaf0b9d2e5176b0b4557de",
+      "integrated_sha256": "5e9b8be602052895fa22adfa47c77fadfc8920fb65982a2a4ec033d861d1c5e2",
+      "modified_for_release": true
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_moca/bundle.py",
+      "destination": "backends/wt/lib_moca/bundle.py",
+      "source_sha256": "2af5e77cfac8c1439e2a93ce8435204e5a9771979a0dfdfbb28efad3cc3f9b96",
+      "integrated_sha256": "2af5e77cfac8c1439e2a93ce8435204e5a9771979a0dfdfbb28efad3cc3f9b96",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_moca/camera.py",
+      "destination": "backends/wt/lib_moca/camera.py",
+      "source_sha256": "5164c0489d49abc12bd2a5d2589b1777412f89a81a5337849204e81dbf97f387",
+      "integrated_sha256": "5164c0489d49abc12bd2a5d2589b1777412f89a81a5337849204e81dbf97f387",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_moca/epi_helpers.py",
+      "destination": "backends/wt/lib_moca/epi_helpers.py",
+      "source_sha256": "c33287ca11b2f40f60548551a70faf2c7dc7024c55d3e28dea372b849e61fea2",
+      "integrated_sha256": "c33287ca11b2f40f60548551a70faf2c7dc7024c55d3e28dea372b849e61fea2",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_moca/intrinsic_helpers.py",
+      "destination": "backends/wt/lib_moca/intrinsic_helpers.py",
+      "source_sha256": "90f3894c8e827996d625debcb9edce496681d9f977afc0b4631b42926f8257e2",
+      "integrated_sha256": "90f3894c8e827996d625debcb9edce496681d9f977afc0b4631b42926f8257e2",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_moca/moca.py",
+      "destination": "backends/wt/lib_moca/moca.py",
+      "source_sha256": "7468a9a23ac8dd54d596eeb293e1e93f8aec4e75362b25f40437294996755d93",
+      "integrated_sha256": "7468a9a23ac8dd54d596eeb293e1e93f8aec4e75362b25f40437294996755d93",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_moca/moca_misc.py",
+      "destination": "backends/wt/lib_moca/moca_misc.py",
+      "source_sha256": "496686f162ccce9c849831c401dcb5cfbe0be121b393e8ff19d85d596ad88e2f",
+      "integrated_sha256": "496686f162ccce9c849831c401dcb5cfbe0be121b393e8ff19d85d596ad88e2f",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_moca/robust_utils.py",
+      "destination": "backends/wt/lib_moca/robust_utils.py",
+      "source_sha256": "075eb99b31496489428f9b058d388b8b7f8ac369294f7966c00f98d4c0e54d12",
+      "integrated_sha256": "075eb99b31496489428f9b058d388b8b7f8ac369294f7966c00f98d4c0e54d12",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_moca/viz_helper.py",
+      "destination": "backends/wt/lib_moca/viz_helper.py",
+      "source_sha256": "a49bbb3080104f68e22a8a0db1ec0cd650472ddc8ac2076f1af438c8f3761f59",
+      "integrated_sha256": "a49bbb3080104f68e22a8a0db1ec0cd650472ddc8ac2076f1af438c8f3761f59",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/camera.py",
+      "destination": "backends/wt/lib_mosca/camera.py",
+      "source_sha256": "aadea5476e87baeb54dd538c78255b9304bb164b3a35aa93d15a4d52584708f7",
+      "integrated_sha256": "aadea5476e87baeb54dd538c78255b9304bb164b3a35aa93d15a4d52584708f7",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/dynamic_gs.py",
+      "destination": "backends/wt/lib_mosca/dynamic_gs.py",
+      "source_sha256": "15eff70e597cbd8cdce4b3368b00b84c6290fffb50f5a792d077ec66703509ef",
+      "integrated_sha256": "15eff70e597cbd8cdce4b3368b00b84c6290fffb50f5a792d077ec66703509ef",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/dynamic_solver.py",
+      "destination": "backends/wt/lib_mosca/dynamic_solver.py",
+      "source_sha256": "b1e2068055dc8023dfbd15206545cebba690f97f5817e32e104d08e703a65ea7",
+      "integrated_sha256": "b1e2068055dc8023dfbd15206545cebba690f97f5817e32e104d08e703a65ea7",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/dynamic_solver_utils.py",
+      "destination": "backends/wt/lib_mosca/dynamic_solver_utils.py",
+      "source_sha256": "fb7efa2f0cf1b591d013f03dcded0702da17829cae8fbb99b68b3b856dfb7f43",
+      "integrated_sha256": "fb7efa2f0cf1b591d013f03dcded0702da17829cae8fbb99b68b3b856dfb7f43",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/gs_utils/gs_optim_helper.py",
+      "destination": "backends/wt/lib_mosca/gs_utils/gs_optim_helper.py",
+      "source_sha256": "ba5ccba1e581ddec47127e201b8fdf09f99af08dbeebdd1cc5879f275234853b",
+      "integrated_sha256": "ba5ccba1e581ddec47127e201b8fdf09f99af08dbeebdd1cc5879f275234853b",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/gs_utils/loss_helper.py",
+      "destination": "backends/wt/lib_mosca/gs_utils/loss_helper.py",
+      "source_sha256": "613f7d23f4b28173e4c0402fb2785ba81850f500c3231ae091cdc24f3b0f0017",
+      "integrated_sha256": "613f7d23f4b28173e4c0402fb2785ba81850f500c3231ae091cdc24f3b0f0017",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/gs_utils/ssim_helper.py",
+      "destination": "backends/wt/lib_mosca/gs_utils/ssim_helper.py",
+      "source_sha256": "3e48534deb071621f9714d406bf2af39d53c8ed7f76f643042a15ccddfd159f6",
+      "integrated_sha256": "3e48534deb071621f9714d406bf2af39d53c8ed7f76f643042a15ccddfd159f6",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/misc.py",
+      "destination": "backends/wt/lib_mosca/misc.py",
+      "source_sha256": "a643576c162dfc1007ba5dce1d9d0ac5803b46a8d8a4b90b51336b684505241c",
+      "integrated_sha256": "a643576c162dfc1007ba5dce1d9d0ac5803b46a8d8a4b90b51336b684505241c",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/mosca.py",
+      "destination": "backends/wt/lib_mosca/mosca.py",
+      "source_sha256": "60c5abddf475f604b2afd1d0f8c57df8c6264f2c4290c8bce0c67c8c99026924",
+      "integrated_sha256": "4b55edd10505d01653027b0ad00957d55bcfcf410cb14eb89e3c7586e6a6edd9",
+      "modified_for_release": true
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/photo_recon.py",
+      "destination": "backends/wt/lib_mosca/photo_recon.py",
+      "source_sha256": "2b549872734c0372e872c7562d48ebc6a7675c82923c1cb880e9f9f8b913c143",
+      "integrated_sha256": "84256533c7835f4580d935d39dd221fdc97e3a10130e97eca049e80d42197ad1",
+      "modified_for_release": true
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/photo_recon_utils.py",
+      "destination": "backends/wt/lib_mosca/photo_recon_utils.py",
+      "source_sha256": "576a78293252c03cb26f5c9ab2a00a0cb2958844aa10ef83a306636abde3291c",
+      "integrated_sha256": "576a78293252c03cb26f5c9ab2a00a0cb2958844aa10ef83a306636abde3291c",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/photo_recon_viz_recur_utils.py",
+      "destination": "backends/wt/lib_mosca/photo_recon_viz_recur_utils.py",
+      "source_sha256": "212baf723e9f0bbed2792836f0190da7ce6db3f4639d56b1571420812f0c0ad7",
+      "integrated_sha256": "212baf723e9f0bbed2792836f0190da7ce6db3f4639d56b1571420812f0c0ad7",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/photo_recon_viz_utils.py",
+      "destination": "backends/wt/lib_mosca/photo_recon_viz_utils.py",
+      "source_sha256": "83800f0ed0b66f3b6bfcd0377f6cf8ad4a769a0bb1a58905fa12bc9b63c61b44",
+      "integrated_sha256": "83800f0ed0b66f3b6bfcd0377f6cf8ad4a769a0bb1a58905fa12bc9b63c61b44",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/scaffold_utils/dualquat_helper.py",
+      "destination": "backends/wt/lib_mosca/scaffold_utils/dualquat_helper.py",
+      "source_sha256": "4c559230efe4c7f12f5bdce3ba95321b4aecebceae1a7d818165083f60654947",
+      "integrated_sha256": "4c559230efe4c7f12f5bdce3ba95321b4aecebceae1a7d818165083f60654947",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/scaffold_utils/fov_helper.py",
+      "destination": "backends/wt/lib_mosca/scaffold_utils/fov_helper.py",
+      "source_sha256": "7cc69ce1ad0b5fa5cf150bfb3bff1a933ddb6d6edb1a1fc54654bab939cbc23c",
+      "integrated_sha256": "7cc69ce1ad0b5fa5cf150bfb3bff1a933ddb6d6edb1a1fc54654bab939cbc23c",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/scaffold_utils/viz_helper.py",
+      "destination": "backends/wt/lib_mosca/scaffold_utils/viz_helper.py",
+      "source_sha256": "a2a1eaf90b57d3c61fbb05329882c1f3a268500a574d76d0a33f1d2bcf0b93bb",
+      "integrated_sha256": "a2a1eaf90b57d3c61fbb05329882c1f3a268500a574d76d0a33f1d2bcf0b93bb",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_mosca/static_gs.py",
+      "destination": "backends/wt/lib_mosca/static_gs.py",
+      "source_sha256": "2aee457e226d3ed770aa038392bf897f672d46f96d7a18f5af57880daab4455b",
+      "integrated_sha256": "2aee457e226d3ed770aa038392bf897f672d46f96d7a18f5af57880daab4455b",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_prior/epi_error/epi_analysis.py",
+      "destination": "backends/wt/lib_prior/epi_error/epi_analysis.py",
+      "source_sha256": "73be8a8aebc31a660a6346b0456b03e49283a58ecb45034bd28b022a8bc5201e",
+      "integrated_sha256": "73be8a8aebc31a660a6346b0456b03e49283a58ecb45034bd28b022a8bc5201e",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_prior/prior_loading.py",
+      "destination": "backends/wt/lib_prior/prior_loading.py",
+      "source_sha256": "00df481299acf9e8116ebb946d3569f6385a5bd3c980c2afaf472b8c53026b3a",
+      "integrated_sha256": "589475c49bbf96734fb3e850509b32062c66bc3d8f21a7f20dd52d1c033e9c0f",
+      "modified_for_release": true
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_prior/tracking/cotracker_visualizer.py",
+      "destination": "backends/wt/lib_prior/tracking/cotracker_visualizer.py",
+      "source_sha256": "9a7e23581b529360dfae5b7e1618ebc01b52dff5c31148a37da89142f2832bf7",
+      "integrated_sha256": "9a7e23581b529360dfae5b7e1618ebc01b52dff5c31148a37da89142f2832bf7",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_render/gauspl_renderer_gof.py",
+      "destination": "backends/wt/lib_render/gauspl_renderer_gof.py",
+      "source_sha256": "e05ad702c321fd681ffb159dd89f10f1abb45dd66bc538b78283d9c812b8ea32",
+      "integrated_sha256": "e05ad702c321fd681ffb159dd89f10f1abb45dd66bc538b78283d9c812b8ea32",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_render/gauspl_renderer_native.py",
+      "destination": "backends/wt/lib_render/gauspl_renderer_native.py",
+      "source_sha256": "61680404c98cec28514342eb13b31fe67e90361628ff9c62e64439484fa4c37c",
+      "integrated_sha256": "61680404c98cec28514342eb13b31fe67e90361628ff9c62e64439484fa4c37c",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_render/gauspl_renderer_native_add3.py",
+      "destination": "backends/wt/lib_render/gauspl_renderer_native_add3.py",
+      "source_sha256": "b2f2a16be018738d6453882e11558b0116ff578982d5b94d29b63853d6b04e98",
+      "integrated_sha256": "49a973171ae0570d70e399e75f0488f87e74078c275299d2266cb24fa569d654",
+      "modified_for_release": true
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_render/render_helper.py",
+      "destination": "backends/wt/lib_render/render_helper.py",
+      "source_sha256": "4b51dde24839b9004ef2eed9b16f6992dd3f9ce738c9b9074cb5eef1614af5d1",
+      "integrated_sha256": "4b51dde24839b9004ef2eed9b16f6992dd3f9ce738c9b9074cb5eef1614af5d1",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lib_render/sh_utils.py",
+      "destination": "backends/wt/lib_render/sh_utils.py",
+      "source_sha256": "ece62fef10e63f3bb1f0c89292ff82591a3a8842c25fe039102d853bc8dded93",
+      "integrated_sha256": "ece62fef10e63f3bb1f0c89292ff82591a3a8842c25fe039102d853bc8dded93",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/lite_moca_reconstruct.py",
+      "destination": "backends/wt/lite_moca_reconstruct.py",
+      "source_sha256": "d4ac3c7e09a9e1b29922d3764cbb736b7ad9035b5680b8522c8ffa2c2ea6ccb2",
+      "integrated_sha256": "d4ac3c7e09a9e1b29922d3764cbb736b7ad9035b5680b8522c8ffa2c2ea6ccb2",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/mosca_evaluate_ours.py",
+      "destination": "backends/wt/mosca_evaluate_ours.py",
+      "source_sha256": "2aa7679253c0aa266112f2ab0141b560468343a61b821a68fde60dbc32042316",
+      "integrated_sha256": "2aa7679253c0aa266112f2ab0141b560468343a61b821a68fde60dbc32042316",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/mosca_onlyeval.py",
+      "destination": "backends/wt/mosca_onlyeval.py",
+      "source_sha256": "886ae588ceaa5dcad30ae43ea7de4c96867505faad1556a157eea9680a5772a6",
+      "integrated_sha256": "886ae588ceaa5dcad30ae43ea7de4c96867505faad1556a157eea9680a5772a6",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/mosca_reconstruct.py",
+      "destination": "backends/wt/mosca_reconstruct.py",
+      "source_sha256": "59a583c43f7123af402194ed195de7bf78a1cdf86fd00f0843a240349a836ce9",
+      "integrated_sha256": "59a583c43f7123af402194ed195de7bf78a1cdf86fd00f0843a240349a836ce9",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/mosca_viz.py",
+      "destination": "backends/wt/mosca_viz.py",
+      "source_sha256": "0501af24f3ed06080b05a4daab511134fc796bf7b4b4eb8199cb58da58c5bd4b",
+      "integrated_sha256": "0501af24f3ed06080b05a4daab511134fc796bf7b4b4eb8199cb58da58c5bd4b",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/recon_utils.py",
+      "destination": "backends/wt/recon_utils.py",
+      "source_sha256": "12979ed57ad4b444b27edc7611ad66a45c33d5ca98619cba53f1dd8c34d6182c",
+      "integrated_sha256": "12979ed57ad4b444b27edc7611ad66a45c33d5ca98619cba53f1dd8c34d6182c",
+      "modified_for_release": false
+    },
+    {
+      "backend": "wt",
+      "source": "WorldTree/viz_utils.py",
+      "destination": "backends/wt/viz_utils.py",
+      "source_sha256": "b76afc5b6e07d8c4d0de829add93f10f7f548d42e50d5eee5f066330bd137713",
+      "integrated_sha256": "b76afc5b6e07d8c4d0de829add93f10f7f548d42e50d5eee5f066330bd137713",
+      "modified_for_release": false
+    }
+  ]
+}

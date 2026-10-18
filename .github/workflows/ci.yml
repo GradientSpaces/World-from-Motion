@@ -1,0 +1,28 @@
+name: Source and CPU checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cpu-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install CPU test dependencies
+        run: python -m pip install pytest pytest-subtests 'numpy<2' Pillow openpyxl imageio imageio-ffmpeg opencv-python-headless==4.10.0.84
+      - name: Check public source
+        run: python scripts/audit_source.py --tracked
+      - name: Test core pipeline
+        env:
+          PYTHONPATH: .:src
+        run: python -m pytest tests/test_config_and_cli.py tests/test_public_source.py tests/test_camera.py tests/test_chunking.py tests/test_journal.py tests/test_artifacts.py tests/test_masks.py tests/test_output_validation.py
+      - name: Test reproduction inputs and collection
+        env:
+          PYTHONPATH: .:src
+          HF_HUB_OFFLINE: '1'
+        run: python -m pytest tests/test_from_raw.py tests/test_dycheck_mask_transport.py tests/test_dycheck_sampling.py tests/test_sampling_preview.py tests/test_table1_reproduction.py tests/test_table1_efficiency_runtime.py
